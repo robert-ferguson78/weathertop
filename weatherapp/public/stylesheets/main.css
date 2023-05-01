@@ -1,9 +1,19 @@
 /*
 CSS sections
+- Readings
 - Main content
 - Navigation
 - Colour
  */
+
+/* Readings */
+.reading .columns {
+    align-items: center;
+    text-align: right;
+}
+.dark-green .card-header-title {
+    font-size: 1.7em;
+}
 
 /* Main content */
 main {
@@ -34,6 +44,10 @@ a.navbar-item:hover {
 }
 .dark-green {
     background-color: #083643;
+    color: #ffffff;
+}
+.dark-green .card-header-title {
+    color: #ffffff;
 }
 .dark-green .title,
 .dark-green .subtitle {

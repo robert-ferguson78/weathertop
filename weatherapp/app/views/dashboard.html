@@ -2,12 +2,15 @@
 #{set title:'Dashboard' /}
 
 #{menu id:"dashboard"/}
-
 #{list items:stations, as:'station'}
 <div class="content box">
-  <h1 class="title">
-    ${station.name}
-  </h1>
+  <div class="columns">
+    <div class="column is-one-fifth">
+      <h1 class="title">
+        ${station.name}
+      </h1>
+    </div>
+  </div>
   #{listreadings station:station/}
 </div>
 #{/list}

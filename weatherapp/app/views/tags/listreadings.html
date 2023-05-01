@@ -1,24 +1,118 @@
+<div class="columns reading">
+    <div class="column">
+        <div class="card dark-green">
+            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+                Station
+            </div>
+            <div class="card-content">
+                <div class="columns">
+                    <div class="column reading is-size-6-desktop">
+                        ${_station.name}
+                    </div>
+                    <div class="column">
+                        <img src="/public/images/svg/compass.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card dark-green">
+            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+                Weather Code
+            </div>
+            <div class="card-content">
+                <div class="columns">
+                    <div class="column reading is-size-6-desktop">
+                        ${_station.currentWeatherCode()}
+                    </div>
+                    <div class="column">
+                        <img src="/public/images/svg/${_station.currentWeatherCodeIcon()}.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card dark-green">
+            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+                Temperature
+            </div>
+            <div class="card-content">
+                <div class="columns">
+                    <div class="column readingv is-size-6-desktop">
+                        ${_station.readings.temperature.last()} C
+                        <br/>
+                        ${_station.celsiusToFahrenheit()} F
+                    </div>
+                    <div class="column">
+                        <img src="/public/images/svg/thermometer.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card dark-green">
+            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+                Windspeed
+            </div>
+            <div class="card-content">
+                <div class="columns">
+                    <div class="column reading is-size-6-desktop">
+                        ${_station.kmHrToBeaufortScale()} bft<br/>
+                        ${_station.beaufortLabel()}
+                    </div>
+                    <div class="column">
+                        <img src="/public/images/svg/wind-beaufort-${_station.kmHrToBeaufortScale()}.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card dark-green">
+            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+                Pressure
+            </div>
+            <div class="card-content">
+                <div class="columns">
+                    <div class="column reading is-size-6-desktop">
+                        ${_station.currentPressure()} hpa
+                    </div>
+                    <div class="column">
+                        <img src="/public/images/svg/barometer.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <table class="table">
-  <thead>
-  <tr>
-    <th>Code</th>
-    <th>Temperature</th>
-    <th>Wind Speed</th>
-  </tr>
-  </thead>
-  <tbody>
-  #{list items:_station.readings, as:'reading'}
-  <tr>
-    <td>
-      ${reading.code}
-    </td>
-    <td>
-      ${reading.temperature}
-    </td>
-    <td>
-      ${reading.windSpeed}
-    </td>
-  </tr>
-  #{/list}
-  </tbody>
+    <thead>
+    <tr>
+        <th>Code</th>
+        <th>Temperature</th>
+        <th>Wind Speed</th>
+        <th>Pressure</th>
+    </tr>
+    </thead>
+    <tbody>
+    #{list items:_station.readings, as:'reading'}
+    <tr>
+        <td>
+            ${reading.getCode()}
+        </td>
+        <td>
+            ${reading.getTemperature()}
+        </td>
+        <td>
+            ${reading.getWindSpeed()}
+        </td>
+        <td>
+            ${reading.getPressure()}
+        </td>
+    </tr>
+    #{/list}
+    </tbody>
 </table>
