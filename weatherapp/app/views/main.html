@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>#{get 'title' /}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/0a68ab4985.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/stylesheets/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+</head>
+<body class="container">
+<section class="hero is-small dark-green">
+    <div class="hero-body columns is-vcentered">
+        <div class="column is-narrow">
+            <p class="title">
+                Welcome to the Weather Station App
+            </p>
+            <p class="subtitle">
+                Add your Weather Station
+            </p>
+        </div>
+        <div class="column is-1">
+            <img src="/public/images/svg/overcast-day-snow.svg">
+        </div>
+        <div class="column is-1">
+            <img src="/public/images/svg/rain.svg">
+        </div>
+        <div class="column is-1">
+            <img src="/public/images/svg/wind-beaufort-2.svg">
+        </div>
+        <div class="column is-1">
+            <img src="/public/images/svg/clear-day.svg">
+        </div>
+    </div>
+</section>
+<main>
+    #{doLayout /}
+</main>
+<footer class="footer box">
+    <div class="content has-text-centered">
+        <p>
+            Copyright Weather Station Demo 2023
+        </p>
+    </div>
+</footer>
+</body>
+</html>

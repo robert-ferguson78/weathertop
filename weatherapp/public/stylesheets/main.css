@@ -1,0 +1,41 @@
+/*
+CSS sections
+- Main content
+- Navigation
+- Colour
+ */
+
+/* Main content */
+main {
+    padding-bottom: 30px;
+}
+/* Navigation */
+.navbar {
+    margin-bottom: 30px;
+}
+/* Colour */
+.hero.is-info {
+    background-color: red;
+    color: #fff;
+}
+.navbar {
+    background-color: #476C5E;
+}
+.navbar-item, .navbar-link {
+    color: #ffffff;
+}
+.navbar-brand a.navbar-item:hover,
+a.navbar-item:hover {
+    background-color: #CEF09D;
+    color: #0a0a0a;
+}
+.has-background-light-green {
+    background-color: #CEF09D;
+}
+.dark-green {
+    background-color: #083643;
+}
+.dark-green .title,
+.dark-green .subtitle {
+    color: #fff;
+}
