@@ -1,5 +1,6 @@
 package models;
 
+import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +18,7 @@ public class Station extends Model {
   @OneToMany(cascade = CascadeType.ALL)
   public List<Reading> readings = new ArrayList<Reading>();
 
-  public Station(String name, int i) {
+  public Station(String name) {
     this.name = name;
   }
 
@@ -34,33 +35,20 @@ public class Station extends Model {
     return codeToWeatherIcon;
   }
 
-  public double celsiusToFahrenheit(){
-    double celsius = readings.get(readings.size() - 1).getTemperature();
-    double fahrenheit = Conversions.celsiusToFahrenheit(celsius);
+  public float celsiusToFahrenheit(){
+    float celsius = readings.get(readings.size() - 1).getTemperature();
+    float fahrenheit = Conversions.celsiusToFahrenheit(celsius);
     return fahrenheit;
   }
 
   public int kmHrToBeaufortScale(){
-    double windspeed = readings.get(readings.size() - 1).getWindSpeed();
+    float windspeed = readings.get(readings.size() - 1).getWindSpeed();
     int beaufort = Conversions.kmHrToBeaufort(windspeed);
     return beaufort;
   }
 
-  public String windCompassDirection(){
-    float windDirection = readings.get(readings.size() - 1).getWindDirection();
-    String compassText = Conversions.windCompassReading(windDirection);
-    return compassText;
-  }
-
-  public double windChill(){
-    double windspeed = readings.get(readings.size() - 1).getWindSpeed();
-    double celsius = readings.get(readings.size() - 1).getTemperature();
-    double windChill = Conversions.calculateWindChill(celsius, windspeed);
-    return windChill;
-  }
-
   public String beaufortLabel(){
-    double windspeed = readings.get(readings.size() - 1).getWindSpeed();
+    float windspeed = readings.get(readings.size() - 1).getWindSpeed();
     String beaufortLabel = Conversions.beaufortLabel(windspeed);
     return beaufortLabel;
   }

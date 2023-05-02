@@ -4,50 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc995849-f2fc-4dbe-96ef-73923afec3a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../starter/weathertop.ipr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starter/weathertop.iws" beforeDir="false" />
+    <list default="true" id="5253d7a7-ec20-4187-bb2c-a0e4d14a447c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/Template_1000$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1000$_run_closure1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template_1001$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1001$_run_closure1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template_1001.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template_1003$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1003$_run_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template_1002$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1002$_run_closure1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template_1004$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1004$_run_closure1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template_1004.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1004.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template_1005$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1005$_run_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template_1005.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1005.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template_1006$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1006$_run_closure1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template_1006.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1006.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template_1007$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1007$_run_closure1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template_1007.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1007.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template_1008$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1008$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template_1008.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1008.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Utilities/Conversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/Utilities/Conversions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Stations.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Reading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Station.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/stations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/tags/listreadings.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/listreadings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/data.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/Utilities.Conversions" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/Utilities.Conversions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_stations.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_stations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listreadings.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listreadings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_conf_data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_conf_data.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Stations" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Stations" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Reading" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Reading" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Station" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Station" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/Utilities/Conversions.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/Utilities/Conversions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/controllers/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Dashboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/controllers/Stations.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Stations.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/classes/models/Reading.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/models/Reading.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/classes/models/Station.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/models/Station.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weatherapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/weatherapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/weathertop.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/weathertop.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weathertop.iws" beforeDir="false" afterPath="$PROJECT_DIR$/weathertop.iws" afterDir="false" />
     </list>
@@ -56,20 +41,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2PD0OR09cvaqw2wQEf37mI5eYAs" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2O98fCE0PIfmLLZVGbJXUg5Qzbe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/robertferguson/Sites/weathertop/weatherapp/weathertop.ipr",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,34 +80,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="weatherapp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="weatherapp" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bc995849-f2fc-4dbe-96ef-73923afec3a6" name="Changes" comment="" />
-      <created>1682976313056</created>
+      <changelist id="5253d7a7-ec20-4187-bb2c-a0e4d14a447c" name="Changes" comment="" />
+      <created>1680961537870</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1682976313056</updated>
-      <workItem from="1682976314132" duration="100000" />
-      <workItem from="1682976423949" duration="2464000" />
-      <workItem from="1682979712013" duration="611000" />
-      <workItem from="1682981027774" duration="4025000" />
-      <workItem from="1682985335638" duration="426000" />
+      <updated>1680961537870</updated>
+      <workItem from="1680961539028" duration="15840000" />
+      <workItem from="1681075165626" duration="4619000" />
+      <workItem from="1681124861890" duration="3061000" />
+      <workItem from="1681128501730" duration="9043000" />
+      <workItem from="1681140971951" duration="29000" />
+      <workItem from="1681150109988" duration="2823000" />
+      <workItem from="1681161690889" duration="6379000" />
+      <workItem from="1681246691913" duration="1363000" />
+      <workItem from="1681298554948" duration="631000" />
+      <workItem from="1681312619247" duration="2224000" />
+      <workItem from="1681391885799" duration="1014000" />
+      <workItem from="1681398423850" duration="11389000" />
+      <workItem from="1681509064169" duration="4555000" />
+      <workItem from="1681666522140" duration="8744000" />
+      <workItem from="1681680024947" duration="527000" />
+      <workItem from="1681767022127" duration="6000" />
+      <workItem from="1682983391745" duration="93000" />
     </task>
     <servers />
   </component>

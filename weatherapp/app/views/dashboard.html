@@ -2,21 +2,15 @@
 #{set title:'Dashboard' /}
 
 #{menu id:"dashboard"/}
-
-#{if stations.size() > 0}
 #{list items:stations, as:'station'}
 <div class="content box">
-            <h1 class="title">
-                ${station.name}
-            </h1>
-    #{if station.readings.size() > 0}
-    #{latestreadings station:station /}
-    #{/if}
-    <p>
-        <a href="/stations/${station.id}" class="icon has-text-primary"><i class="fas fa-folder"></i></a>
-    </p>
+  <div class="columns">
+    <div class="column is-one-fifth">
+      <h1 class="title">
+        ${station.name}
+      </h1>
+    </div>
+  </div>
+  #{listreadings station:station/}
 </div>
 #{/list}
-#{/if}
-
-#{addstation /}

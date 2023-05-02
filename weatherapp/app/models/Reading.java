@@ -10,18 +10,16 @@ import java.util.List;
 public class Reading extends Model
 {
   public int code;
-  public double temperature;
-  public double windSpeed;
+  public float temperature;
+  public float windSpeed;
   public int pressure;
-  public float windDirection;
 
-  public Reading(int code, double temperature, double windSpeed, int pressure, float windDirection)
+  public Reading(int code, float temperature, float windSpeed, int pressure)
   {
     this.code = code;
     this.temperature = temperature;
     this.windSpeed = windSpeed;
     this.pressure = pressure;
-    this.windDirection = windDirection;
   }
 
 
@@ -29,22 +27,21 @@ public class Reading extends Model
   public int getCode() {
     return code;
   }
-  public double getTemperature() {
+  public float getTemperature() {
     return temperature;
   }
-  public double getWindSpeed() {
+  public float getWindSpeed() {
     return windSpeed;
   }
   public int getPressure() {
     return pressure;
   }
-  public float getWindDirection() { return windDirection;}
 
   //setters
   public void setCode(int code) {
     this.code = code;
   }
-  public void setTemperature(double temperature) {
+  public void setTemperature(float temperature) {
     this.temperature = temperature;
   }
   public void setWindSpeed(float windSpeed) {
@@ -52,8 +49,5 @@ public class Reading extends Model
   }
   public void setPressure(int pressure) {
     this.pressure = pressure;
-  }
-  public void setWindDirection(float windDirection) {
-    this.windDirection = windDirection;
   }
 }
