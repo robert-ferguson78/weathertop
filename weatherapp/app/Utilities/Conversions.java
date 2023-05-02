@@ -49,12 +49,12 @@ public class Conversions extends Model {
     }
   }
 
-  public static float celsiusToFahrenheit(float temperature) {
-    float fahrenheit = ((temperature * 9) / 5) + 32;
+  public static double celsiusToFahrenheit(double temperature) {
+    double fahrenheit = ((temperature * 9) / 5) + 32;
     return fahrenheit;
   }
 
-  public static int kmHrToBeaufort(float windSpeed) {
+  public static int kmHrToBeaufort(double windSpeed) {
     int beaufortScale = 0;
     if (windSpeed <= 1) {
       beaufortScale = 0;
@@ -84,7 +84,7 @@ public class Conversions extends Model {
     return beaufortScale;
   }
 
-  public static String beaufortLabel(float windSpeed) {
+  public static String beaufortLabel(double windSpeed) {
     String beaufortScale = "";
     if (windSpeed <= 1) {
       beaufortScale = "Calm";
@@ -112,6 +112,53 @@ public class Conversions extends Model {
       beaufortScale = "Violent Storm";
     }
     return beaufortScale;
+  }
+
+  public static String windCompassReading(double degreeToConvert) {
+    String windDirectionText = "";
+    if ((degreeToConvert > 348.75 && degreeToConvert <= 360) || (degreeToConvert >= 0 && degreeToConvert <= 11.25)) {
+      windDirectionText = "North";
+    } else if (degreeToConvert > 11.25 && degreeToConvert <= 33.75) {
+      windDirectionText = "North North East";
+    } else if (degreeToConvert > 33.75 && degreeToConvert <= 56.25) {
+      windDirectionText = "North East";
+    } else if (degreeToConvert > 56.25 && degreeToConvert <= 78.75) {
+      windDirectionText = "East North East";
+    } else if (degreeToConvert > 78.75 && degreeToConvert <= 101.25) {
+      windDirectionText = "East";
+    } else if (degreeToConvert > 101.25 && degreeToConvert <= 123.75) {
+      windDirectionText = "East South East";
+    } else if (degreeToConvert > 123.75 && degreeToConvert <= 146.25) {
+      windDirectionText = "South East";
+    } else if (degreeToConvert > 146.25 && degreeToConvert <= 168.75) {
+      windDirectionText = "South South East";
+    } else if (degreeToConvert > 168.75 && degreeToConvert <= 191.25) {
+      windDirectionText = "South";
+    } else if (degreeToConvert > 191.25 && degreeToConvert <= 213.75) {
+      windDirectionText = "South South West";
+    } else if (degreeToConvert > 213.75 && degreeToConvert <= 236.25) {
+      windDirectionText = "South West";
+    } else if (degreeToConvert > 236.25 && degreeToConvert <= 258.75) {
+      windDirectionText = "West South West";
+    } else if (degreeToConvert > 258.75 && degreeToConvert <= 281.25) {
+      windDirectionText = "West";
+    } else if (degreeToConvert > 281.25 && degreeToConvert <= 303.75) {
+      windDirectionText = "West North West";
+    } else if (degreeToConvert > 303.75 && degreeToConvert <= 326.25) {
+      windDirectionText = "North West";
+    } else if (degreeToConvert > 326.25 && degreeToConvert <= 348.75) {
+      windDirectionText = "North North West";
+    } else {
+      windDirectionText = "Error";
+    }
+    return windDirectionText;
+  }
+
+  public static double calculateWindChill(double temperature, double windSpeed) {
+    double windChill;
+    windChill = 13.12 + (0.6215 * temperature) - 11.37 * (Math.pow(windSpeed, 0.16))
+        + (0.3965 * temperature) * (Math.pow(windSpeed, 0.16));
+    return Math.round(windChill * 100.0) / 100.0;
   }
 
 }

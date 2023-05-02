@@ -7,6 +7,11 @@ GET     /                                       Start.index
 GET     /stations                               stations.index
 GET     /dashboard                              Dashboard.index
 GET     /about                                  About.index
+GET     /stations/{id}                         StationsCtrl.index
+POST   /stations/{id}/addreading               StationsCtrl.addReading
+POST   /dashboard/addstation                        StationsCtrl.addStation
+GET   /dashboard/deletestation/{id}                        StationsCtrl.deleteStation
+GET    /stations/{id}/deletereading/{readingid}     StationsCtrl.deleteReading
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
