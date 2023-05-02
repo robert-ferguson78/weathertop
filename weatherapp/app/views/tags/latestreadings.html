@@ -1,0 +1,82 @@
+<div class="columns reading">
+    <div class="column is-flex">
+        <div class="card dark-green pb-3">
+            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+                Station
+            </div>
+            <div class="columns">
+                <div class="column reading is-size-6-desktop">
+                    ${_station.name}
+                </div>
+                <div class="column">
+                    <img src="/public/images/svg/compass.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-flex">
+        <div class="card dark-green pb-3">
+            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+                Weather Code
+            </div>
+            <div class="columns">
+                <div class="column reading is-size-6-desktop">
+                    ${_station.currentWeatherCode()}
+                </div>
+                <div class="column">
+                    <img src="/public/images/svg/${_station.currentWeatherCodeIcon()}.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-flex">
+        <div class="card dark-green pb-3">
+            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+                Temperature
+            </div>
+            <div class="columns">
+                <div class="column readingv is-size-6-desktop">
+                    ${_station.readings.temperature.last()} C
+                    <br/>
+                    ${_station.celsiusToFahrenheit()} F
+                </div>
+                <div class="column">
+                    <img src="/public/images/svg/thermometer.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-flex">
+        <div class="card dark-green has-text-centered pb-3">
+            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+                Windspeed
+            </div>
+            <div class="columns">
+                <div class="column reading is-size-6-desktop">
+                    ${_station.kmHrToBeaufortScale()} bft <br/>
+                    <span class="suppliment-text">(${_station.beaufortLabel()})</span>
+                </div>
+                <div class="column">
+                    <img src="/public/images/svg/wind-beaufort-${_station.kmHrToBeaufortScale()}.svg">
+                </div>
+            </div>
+            ${_station.windCompassDirection()} <br/>
+            Feels Like: ${_station.windChill()}
+        </div>
+    </div>
+    <div class="column is-flex">
+        <div class="card dark-green pb-3">
+            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+                Pressure
+            </div>
+            <div class="columns">
+                <div class="column reading is-size-6-desktop">
+                    ${_station.currentPressure()} hpa
+                </div>
+                <div class="column">
+                    <img src="/public/images/svg/barometer.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

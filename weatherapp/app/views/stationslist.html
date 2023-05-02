@@ -1,0 +1,15 @@
+#{extends 'main.html' /}
+#{set title:'Weather Stations' /}
+
+#{menu id:"stations"/}
+
+<div class="content box">
+    <h1 class="title">
+        ${station.name}
+    </h1>
+    #{if station.readings.size() > 0}
+    #{latestreadings station:station /}
+    #{/if}
+    #{listreadings station:station/}
+    #{addreading station:station /}
+</div>

@@ -1,0 +1,56 @@
+<div class="box mt-6 has-background-light">
+    <form class="form" action="/stations/${_station.id}/addreading" method="POST">
+        <div class="columns">
+            <div class="field column">
+                <label class="label">Code</label>
+                <div class="control">
+                    <div class="select">
+                        <select placeholder="00" type="text" name="code">
+                            <option value="100">100</option>
+                            <option value="200">200</option>
+                            <option value="300">300</option>
+                            <option value="400">400</option>
+                            <option value="500">500</option>
+                            <option value="600">600</option>
+                            <option value="700">700</option>
+                            <option value="800">800</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="field column">
+                <label class="label">Temperature</label>
+                <div class="control">
+                    <input class="input" placeholder="00.0 C" type="number" step=".01" name="temperature">
+                </div>
+            </div>
+            <div class="field column">
+                <label class="label">Wind Speed</label>
+                <div class="control">
+                    <input class="input" placeholder="00.00 kMh" type="number" step=".01" min="1" max="117"
+                           name="windSpeed">
+                </div>
+            </div>
+            <div class="field column">
+                <label class="label">Wind Direction</label>
+                <div class="control">
+                    <input class="input" placeholder="00.00 dg" type="number" step=".01" min="0" max="360"
+                           name="windDirection">
+                </div>
+            </div>
+            <div class="field column">
+                <label class="label">Pressure</label>
+                <div class="control">
+                    <input class="input" placeholder="00.00hPa" type="number" name="pressure">
+                </div>
+            </div>
+            <div class="field column m-auto">
+                <div class="control">
+                    <button class="button is-primary is-large">
+                        Submit Readings
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
