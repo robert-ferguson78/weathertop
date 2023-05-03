@@ -6,8 +6,8 @@
             </div>
             <div class="columns">
                 <div class="column reading is-full has-text-centered">
-                    LAT: ${_station.latitude}<br/>
-                    LONG: ${_station.longitude}
+                    Lat: ${_station.latitude}<br/>
+                    Long: ${_station.longitude}
                 </div>
             </div>
             <div class="columns is-flex is-justify-content-center">
@@ -69,6 +69,10 @@
             </div>
             ${_station.windCompassDirection()} <br/>
             Feels Like: ${_station.windChill()}
+            <br/>
+            Min: ${_station.getMinWind()}
+            <br/>
+            Max: ${_station.getMaxWind()}
         </div>
     </div>
     <div class="column is-flex">
@@ -84,6 +88,8 @@
                     <img src="/public/images/svg/barometer.svg">
                 </div>
             </div>
+            Min: ${_station.getMinPressure()} hpa<br/>
+            Max: ${_station.getMaxPressure()} hpa
         </div>
     </div>
 </div>
