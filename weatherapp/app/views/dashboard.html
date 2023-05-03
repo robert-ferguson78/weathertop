@@ -9,9 +9,7 @@
             <h1 class="title">
                 ${station.name}
             </h1>
-    #{if station.readings.size() > 0}
     #{latestreadings station:station /}
-    #{/if}
     <p>
         <a href="/stations/${station.id}" class="icon has-text-primary"><i class="fas fa-folder"></i></a>
     </p>

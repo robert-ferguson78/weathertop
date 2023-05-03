@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc995849-f2fc-4dbe-96ef-73923afec3a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Template_1001$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1001$_run_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template_1001.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1001.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template_1004$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1004$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/StationsCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/StationsCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/addstation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/addstation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/tags/latestreadings.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/latestreadings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_latestreadings.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_latestreadings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Station" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Station" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weathertop.iws" beforeDir="false" afterPath="$PROJECT_DIR$/weathertop.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,8 @@
       <workItem from="1683063554178" duration="20000" />
       <workItem from="1683063790183" duration="8670000" />
       <workItem from="1683074045652" duration="351000" />
-      <workItem from="1683136861028" duration="7472000" />
+      <workItem from="1683136861028" duration="8052000" />
+      <workItem from="1683151644433" duration="345000" />
     </task>
     <servers />
   </component>

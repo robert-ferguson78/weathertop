@@ -22,6 +22,7 @@
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
                 Weather Code
             </div>
+            #{if _station.readings.size() > 0}
             <div class="columns">
                 <div class="column reading is-size-6-desktop">
                     ${_station.currentWeatherCode()}
@@ -30,6 +31,7 @@
                     <img src="/public/images/svg/${_station.currentWeatherCodeIcon()}.svg">
                 </div>
             </div>
+            #{/if}
         </div>
     </div>
     <div class="column is-flex">
@@ -37,6 +39,7 @@
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
                 Temperature
             </div>
+            #{if _station.readings.size() > 0}
             <div class="columns">
                 <div class="column reading is-size-6-desktop">
                     ${_station.readings.temperature.last()} C
@@ -51,6 +54,7 @@
                     <img src="/public/images/svg/thermometer.svg">
                 </div>
             </div>
+            #{/if}
         </div>
     </div>
     <div class="column is-flex">
@@ -58,6 +62,7 @@
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
                 Windspeed
             </div>
+            #{if _station.readings.size() > 0}
             <div class="columns">
                 <div class="column reading is-size-6-desktop">
                     ${_station.kmHrToBeaufortScale()} bft <br/>
@@ -73,6 +78,7 @@
             Min: ${_station.getMinWind()}
             <br/>
             Max: ${_station.getMaxWind()}
+            #{/if}
         </div>
     </div>
     <div class="column is-flex">
@@ -80,6 +86,7 @@
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
                 Pressure
             </div>
+            #{if _station.readings.size() > 0}
             <div class="columns">
                 <div class="column reading is-size-6-desktop">
                     ${_station.currentPressure()} hpa
@@ -90,6 +97,7 @@
             </div>
             Min: ${_station.getMinPressure()} hpa<br/>
             Max: ${_station.getMaxPressure()} hpa
+            #{/if}
         </div>
     </div>
 </div>
