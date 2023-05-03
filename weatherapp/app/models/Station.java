@@ -74,4 +74,36 @@ public class Station extends Model {
     return pressure;
   }
 
+  public double getMinTemp() {
+    Reading reading;
+    double minTemp = 0.0;
+
+    if (readings.size() > 0) {
+      reading = readings.get(0);
+      minTemp = reading.temperature;
+      for (Reading currentReading : readings) {
+        if (currentReading.temperature < reading.temperature) {
+          minTemp = currentReading.temperature;
+        }
+      }
+    }
+    return minTemp;
+  }
+
+  public double getMaxTemp() {
+    Reading reading;
+    double maxTemp = 0.0;
+
+    if (readings.size() > 0) {
+      reading = readings.get(0);
+      maxTemp = reading.temperature;
+      for (Reading currentReading : readings) {
+        if (currentReading.temperature > reading.temperature) {
+          maxTemp = currentReading.temperature;
+        }
+      }
+    }
+    return maxTemp;
+  }
+
 }
