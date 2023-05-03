@@ -2,13 +2,16 @@
     <div class="column is-flex">
         <div class="card dark-green pb-3">
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
-                Station
+                ${_station.name}
             </div>
             <div class="columns">
-                <div class="column reading is-size-6-desktop">
-                    ${_station.name}
+                <div class="column reading is-full has-text-centered">
+                    LAT: ${_station.latitude}<br/>
+                    LONG: ${_station.longitude}
                 </div>
-                <div class="column">
+            </div>
+            <div class="columns is-flex is-justify-content-center">
+                <div class="column is-half">
                     <img src="/public/images/svg/compass.svg">
                 </div>
             </div>
@@ -35,7 +38,7 @@
                 Temperature
             </div>
             <div class="columns">
-                <div class="column readingv is-size-6-desktop">
+                <div class="column reading is-size-6-desktop">
                     ${_station.readings.temperature.last()} C
                     <br/>
                     ${_station.celsiusToFahrenheit()} F
