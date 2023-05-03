@@ -14,14 +14,14 @@ public class Dashboard extends Controller
   {
     Logger.info("Rendering Dashboard");
     Member member = Accounts.getLoggedInMember();
-    List<Station> stations = Station.findAll();
+    List<Station> stations = member.stations;
     render ("dashboard.html", stations);
   }
 
   public static void addStation(String name) {
-    Member member = Accounts.getLoggedInMember();
-    Station station = new Station(name, 0);
     Logger.info("Adding a New Station Called " + name);
+    Member member = Accounts.getLoggedInMember();
+    Station station = new Station(name,0);
     member.stations.add(station);
     member.save();
     redirect("/dashboard");
