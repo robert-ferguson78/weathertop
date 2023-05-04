@@ -6,6 +6,7 @@
         <th>Wind Speed</th>
         <th>Wind Direction</th>
         <th>Pressure</th>
+        <th>Delete</th>
     </tr>
     </thead>
     <tbody>
@@ -25,6 +26,9 @@
         </td>
         <td>
             ${reading.getPressure()}
+        </td>
+        <td>
+            <a href="/stations/${_station.id}/deletereading/${reading.id}" class="button is-danger">Delete Reading</a>
         </td>
     </tr>
     #{/list}
