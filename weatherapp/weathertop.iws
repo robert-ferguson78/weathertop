@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc995849-f2fc-4dbe-96ef-73923afec3a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Template_1002$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1002$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template_1004$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1004$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template_1004.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template_1005$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1005$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template_1005.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1005.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template_1000$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1000$_run_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template_1000.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1000.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template_1001$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1001$_run_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template_1001.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_stationsList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/classes/controllers/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Dashboard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weathertop.iws" beforeDir="false" afterPath="$PROJECT_DIR$/weathertop.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +107,8 @@
       <workItem from="1683136861028" duration="8052000" />
       <workItem from="1683151644433" duration="626000" />
       <workItem from="1683202371570" duration="406000" />
-      <workItem from="1683231197441" duration="4421000" />
+      <workItem from="1683231197441" duration="6040000" />
+      <workItem from="1683237450436" duration="360000" />
     </task>
     <servers />
   </component>
