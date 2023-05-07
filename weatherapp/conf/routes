@@ -7,6 +7,8 @@ GET         /                                               Start.index
 GET         /signup                                         Accounts.signup
 GET         /login                                          Accounts.login
 POST        /register                                       Accounts.register
+GET         /profile                                        Accounts.profile
+POST        /update/{memberId}                              Accounts.profileUpdate
 POST        /authenticate                                   Accounts.authenticate
 GET         /logout                                         Accounts.logout
 GET         /dashboard                                      Dashboard.index

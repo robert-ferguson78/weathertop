@@ -26,6 +26,23 @@ public class Accounts extends Controller
     redirect("/login");
   }
 
+  public static void profile() {
+    Member member = Accounts.getLoggedInMember();
+    Logger.info("Rendering profile");
+    render("profile.html", member);
+  }
+
+  public static void profileUpdate(Long memberId, String firstname, String lastname, String password) {
+    Member member = Member.findById(memberId);
+    member.setFirstName(firstname);
+    member.setLastName(lastname);
+    member.setPassword(password);
+    member.save();
+    Logger.info("User updated profile Name " + member.getFirstName() + " " + member.lastname + " password " + member.password);
+    String message = "Profile Updated Sucessfully";
+    render("/profile.html", member, message);
+  }
+
   public static void authenticate(String email, String password)
   {
     Logger.info("Attempting to authenticate with " + email + ":" + password);
