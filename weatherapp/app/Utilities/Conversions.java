@@ -161,5 +161,15 @@ public class Conversions extends Model {
     return Math.round(windChill * 100.0) / 100.0;
   }
 
+  public static String trendToText(String icon) {
+    switch (icon) {
+      case "fa-arrow-up-wide-short":
+        return "Rising";
+      case "fa-arrow-down-short-wide":
+        return "Falling";
+      default:
+        return "Steady";
+    }
+  }
 
 }

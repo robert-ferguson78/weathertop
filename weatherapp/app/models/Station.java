@@ -170,4 +170,83 @@ public class Station extends Model {
     return MaxPressure;
   }
 
+  public String pressureTrend() {
+    String trendOfPressure = "";
+    if (readings.size() >= 3) {
+      double firstReading, secondReading, thirdReading;
+      trendOfPressure = "fa-arrow-right-arrow-left";
+      firstReading = readings.get(readings.size() - 1).getPressure();
+      secondReading = readings.get(readings.size() - 2).getPressure();
+      thirdReading = readings.get(readings.size() - 3).getPressure();
+      if ((firstReading < secondReading) && (secondReading < thirdReading)) {
+        trendOfPressure = "fa-arrow-down-short-wide";
+
+      } else if ((firstReading > secondReading) && (secondReading > thirdReading)) {
+        trendOfPressure = "fa-arrow-up-wide-short";
+      }
+    }
+    return trendOfPressure;
+  }
+
+  public String pressureTrendText() {
+    String tempText = "";
+    if (readings.size() >= 3) {
+      tempText = Conversions.trendToText(pressureTrend());
+    }
+    return tempText;
+  }
+
+  public String windTrend() {
+    String trendOfWind = "";
+    if (readings.size() >= 3) {
+      double firstReading, secondReading, thirdReading;
+      trendOfWind = "fa-arrow-right-arrow-left";
+      firstReading = readings.get(readings.size() - 1).getWindSpeed();
+      secondReading = readings.get(readings.size() - 2).getWindSpeed();
+      thirdReading = readings.get(readings.size() - 3).getWindSpeed();
+      if ((firstReading < secondReading) && (secondReading < thirdReading)) {
+        trendOfWind = "fa-arrow-down-short-wide";
+
+      } else if ((firstReading > secondReading) && (secondReading > thirdReading)) {
+        trendOfWind = "fa-arrow-up-wide-short";
+      }
+    }
+    return trendOfWind;
+  }
+
+  public String windTrendText() {
+    String tempText = "";
+    if (readings.size() >= 3) {
+      tempText = Conversions.trendToText(windTrend());
+    }
+    return tempText;
+  }
+
+  public String tempTrend() {
+    String trendOfTemperature = "";
+    if (readings.size() >= 3) {
+      double firstReading, secondReading, thirdReading;
+      trendOfTemperature = "fa-arrow-right-arrow-left";
+      firstReading = readings.get(readings.size() - 1).getTemperature();
+      secondReading = readings.get(readings.size() - 2).getTemperature();
+      thirdReading = readings.get(readings.size() - 3).getTemperature();
+      if ((firstReading < secondReading) && (secondReading < thirdReading)) {
+        trendOfTemperature = "fa-arrow-down-short-wide";
+
+      } else if ((firstReading > secondReading) && (secondReading > thirdReading)) {
+        trendOfTemperature = "fa-arrow-up-wide-short";
+      }
+    }
+    return trendOfTemperature;
+  }
+
+  public String tempTrendText() {
+    String tempText = "";
+    if (readings.size() >= 3) {
+      tempText = Conversions.trendToText(tempTrend());
+    }
+    return tempText;
+  }
+
+
 }

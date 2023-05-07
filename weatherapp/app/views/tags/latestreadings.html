@@ -48,7 +48,9 @@
                     <br/>
                     Min: ${_station.getMinTemp()}
                     <br/>
-                    Max: ${_station.getMaxTemp()}
+                    Max: ${_station.getMaxTemp()}<br/>
+                    ${_station.tempTrendText()}
+                    <i class="fa-solid ${_station.tempTrend()}"></i>
                 </div>
                 <div class="column">
                     <img src="/public/images/svg/thermometer.svg">
@@ -77,7 +79,9 @@
             <br/>
             Min: ${_station.getMinWind()}
             <br/>
-            Max: ${_station.getMaxWind()}
+            Max: ${_station.getMaxWind()}<br/>
+            ${_station.windTrendText()}
+            <i class="fa-solid ${_station.windTrend()}"></i>
             #{/if}
         </div>
     </div>
@@ -96,7 +100,9 @@
                 </div>
             </div>
             Min: ${_station.getMinPressure()} hpa<br/>
-            Max: ${_station.getMaxPressure()} hpa
+            Max: ${_station.getMaxPressure()} hpa<br/>
+            ${_station.pressureTrendText()}
+            <i class="fa-solid ${_station.pressureTrend()}"></i>
             #{/if}
         </div>
     </div>
