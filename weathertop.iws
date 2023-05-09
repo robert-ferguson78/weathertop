@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11c91595-143f-4bdf-9b25-ea6975cf8f87" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/starter/weathertop.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/weathertop.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1000$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1000.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1001$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1002$_run_closure1$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1002$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1003$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1003.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1004$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1004.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1005$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1005.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1006$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1006.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1007$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1007.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1008$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1008.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1009$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1009.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1010$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1010.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1011$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1011.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1012$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1012.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1015$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/Template_1015.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/Bootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/Utilities/Conversions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/controllers/About.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/controllers/Accounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/controllers/Dashboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/controllers/Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/controllers/StationsCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/models/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/models/Reading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/models/Station.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/errors/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/errors/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/stationslist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/tags/addreading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/tags/addstation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/tags/animatedgraphic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/tags/latestreadings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/tags/listreadings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/tags/mainpanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/tags/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/app/views/tags/welcomemenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/conf/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/conf/data.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/conf/dependencies.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/conf/messages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/conf/routes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/documentation/files/manual.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/documentation/files/wiki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/documentation/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/documentation/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/documentation/welcome.textile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/modules/docviewer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/WeatherTopEquipment1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/WeatherTopEquipment2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/img2.thejournal.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/alert-avalanche-danger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/alert-falling-rocks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/barometer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/beanie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/celsius.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/clear-day.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/clear-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/cloud-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/cloud-up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/cloudy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/code-green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/code-orange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/code-red.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/code-yellow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/compass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/drizzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/dust-day.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/dust-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/dust-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/dust.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-day-drizzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-day-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-day-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-day-haze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-day-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-day-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-day-smoke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-day-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-day.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-drizzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-haze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-night-drizzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-night-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-night-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-night-haze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-night-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-night-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-night-smoke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-night-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-smoke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/extreme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/fahrenheit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/falling-stars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/flag-gale-warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/flag-hurricane-warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/flag-small-craft-advisory.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/flag-storm-warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/fog-day.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/fog-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/glove.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/haze-day.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/haze-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/haze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/horizon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/humidity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/hurricane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/lightning-bolt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/mist.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/moon-first-quarter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/moon-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/moon-last-quarter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/moon-new.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/moon-waning-crescent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/moon-waning-gibbous.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/moon-waxing-crescent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/moon-waxing-gibbous.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/moonrise.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/moonset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/not-available.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-day-drizzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-day-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-day-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-day-haze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-day-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-day-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-day-smoke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-day-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-day.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-drizzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-haze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-night-drizzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-night-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-night-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-night-haze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-night-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-night-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-night-smoke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-night-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-smoke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/overcast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-day-drizzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-day-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-day-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-day-haze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-day-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-day-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-day-smoke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-day-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-day.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-night-drizzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-night-fog.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-night-hail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-night-haze.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-night-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-night-sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-night-smoke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-night-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/partly-cloudy-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/pollen-flower.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/pollen-grass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/pollen-tree.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/pollen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/pressure-high-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/pressure-high.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/pressure-low-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/pressure-low.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/rainbow-clear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/rainbow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/raindrop-measure.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/raindrop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/raindrops.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/sleet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/smoke-particles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/smoke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/snowflake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/snowman.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/solar-eclipse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/starry-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/sun-hot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/sunrise.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/sunset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-celsius.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-colder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-fahrenheit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-glass-celsius.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-glass-fahrenheit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-glass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-mercury-cold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-mercury.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-moon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-raindrop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-sun.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-warmer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer-water.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thermometer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-day-extreme-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-day-extreme-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-day-extreme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-day-overcast-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-day-overcast-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-day-overcast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-day-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-day-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-day.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-extreme-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-extreme-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-extreme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-night-extreme-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-night-extreme-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-night-extreme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-night-overcast-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-night-overcast-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-night-overcast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-night-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-night-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-overcast-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-overcast-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-overcast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-rain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/thunderstorms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/tide-high.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/tide-low.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/time-afternoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/time-evening.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/time-late-afternoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/time-late-evening.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/time-late-morning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/time-late-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/time-morning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/time-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/tornado.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/umbrella-wind-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/umbrella-wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/umbrella.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index-9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/uv-index.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-beaufort-9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-offshore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-onshore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind-snow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/wind.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/windsock-weak.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/svg/windsock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/weather-instrument.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/images/weathertop-watch-tower.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/javascripts/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/javascripts/jquery-1.6.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/public/stylesheets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/test/Application.test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/test/ApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/test/BasicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/test/data.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/Bootstrap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/DocViewerPlugin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/Utilities.Conversions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_Application_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_errors_404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_errors_500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_stations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_stationsList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_tags_addreading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_tags_addstation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_tags_animatedgraphic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_tags_latestreadings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_tags_listreadings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_tags_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_app_views_tags_welcomemenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_conf_data.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_conf_data1.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_play__framework_templates_errors_404.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_play__framework_templates_tags_404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_play__framework_templates_tags_500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_play__framework_templates_tags_welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/_play__framework_templates_tags_welcome_en.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/controllers.About" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/controllers.Accounts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/controllers.Application" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/controllers.Dashboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/controllers.PlayDocumentation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/controllers.ProjectDocumentation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/controllers.Start" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/controllers.StationCtrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/controllers.Stations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/controllers.StationsCtrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/helpers.CheatSheetHelper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/helpers.CheatSheetHelper$1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/helpers.CheatSheetHelper$2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/helpers.CheatSheetHelper$3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/helpers.CheatSheetHelper$4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/helpers.LangMenuHelper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/helpers.LangMenuHelper$1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/helpers.LangMenuHelper$LangMenu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/models.Member" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/models.Reading" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/bytecode/DEV/models.Station" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/Bootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/DocViewerPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/Utilities/Conversions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/controllers/About.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/controllers/Accounts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/controllers/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/controllers/Dashboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/controllers/PlayDocumentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/controllers/ProjectDocumentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/controllers/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/controllers/StationCtrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/controllers/Stations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/controllers/StationsCtrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/helpers/CheatSheetHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/helpers/CheatSheetHelper$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/helpers/CheatSheetHelper$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/helpers/CheatSheetHelper$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/helpers/CheatSheetHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/helpers/LangMenuHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/helpers/LangMenuHelper$LangMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/helpers/LangMenuHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/models/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/models/Reading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/models/Station.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/Bootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/DocViewerPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/controllers/About.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/controllers/Dashboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/controllers/PlayDocumentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/controllers/ProjectDocumentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/controllers/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/helpers/CheatSheetHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/helpers/CheatSheetHelper$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/helpers/CheatSheetHelper$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/helpers/CheatSheetHelper$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/helpers/CheatSheetHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/helpers/LangMenuHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/helpers/LangMenuHelper$LangMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/helpers/LangMenuHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/models/Reading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/models/Station.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/play.plugins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/PlayDocumentation/cheatSheet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/PlayDocumentation/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/PlayDocumentation/releases.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/errors/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/errors/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/tags/listweatherreadings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/tags/mainpanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/production/weathertop/views/tags/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/test/weathertop/Application.test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/test/weathertop/ApplicationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/test/weathertop/BasicTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/tmp/classes/test/weathertop/data.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/weathertop-assignment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/weathertop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/weathertop.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weatherapp/weathertop.iws" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2PD0OR09cvaqw2wQEf37mI5eYAs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/robertferguson/Sites/weathertop/weathertop.ipr",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="baseline" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="baseline" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11c91595-143f-4bdf-9b25-ea6975cf8f87" name="Changes" comment="" />
+      <created>1682976313056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682976313056</updated>
+      <workItem from="1682976314132" duration="100000" />
+      <workItem from="1682976423949" duration="2464000" />
+      <workItem from="1682979712013" duration="611000" />
+      <workItem from="1682981027774" duration="4850000" />
+      <workItem from="1682985955701" duration="3000" />
+      <workItem from="1682987565329" duration="619000" />
+      <workItem from="1683063431723" duration="116000" />
+      <workItem from="1683063554178" duration="20000" />
+      <workItem from="1683063790183" duration="8670000" />
+      <workItem from="1683074045652" duration="351000" />
+      <workItem from="1683136861028" duration="8052000" />
+      <workItem from="1683151644433" duration="626000" />
+      <workItem from="1683202371570" duration="406000" />
+      <workItem from="1683231197441" duration="6040000" />
+      <workItem from="1683237450436" duration="711000" />
+      <workItem from="1683630541869" duration="457000" />
+      <workItem from="1683633316521" duration="213000" />
+      <workItem from="1683633822614" duration="89000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+</project>
