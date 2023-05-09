@@ -1,4 +1,4 @@
 # Admin dependencies
 
 require:
-    - play
+    - play 1.5
