@@ -2,6 +2,8 @@ package controllers;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import Utilities.Conversions;
 import models.Member;
 import models.Station;
 import models.Reading;
@@ -14,7 +16,7 @@ public class Dashboard extends Controller
   {
     Logger.info("Rendering Dashboard");
     Member member = Accounts.getLoggedInMember();
-    List<Station> stations = member.stations;
+    List<Station> stations = Conversions.sortStations(member.stations);
     render ("dashboard.html", stations);
   }
 

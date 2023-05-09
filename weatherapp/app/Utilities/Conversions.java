@@ -1,6 +1,11 @@
 package Utilities;
 
+import models.Station;
+import play.Logger;
 import play.db.jpa.Model;
+
+import java.util.Comparator;
+import java.util.List;
 
 public class Conversions extends Model {
   public static String codeToText(int code) {
@@ -170,6 +175,12 @@ public class Conversions extends Model {
       default:
         return "Steady";
     }
+  }
+
+  public static List<Station> sortStations(List<Station> stations) {
+    stations.sort(Comparator.comparing(Station::getName, String.CASE_INSENSITIVE_ORDER));
+    Logger.info("Sorting Stations Alphabetically");
+    return stations;
   }
 
 }

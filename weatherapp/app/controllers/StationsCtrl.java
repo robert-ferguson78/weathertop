@@ -1,8 +1,7 @@
 package controllers;
 
-import java.util.List;
-
-import models.Member;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import models.Station;
 import models.Reading;
 import play.Logger;
@@ -16,7 +15,7 @@ public class StationsCtrl extends Controller {
   }
 
   public static void addReading(Long id, int code, double temperature, double windSpeed, int pressure, float windDirection) {
-    Reading reading = new Reading(code, temperature, windSpeed, pressure, windDirection);
+    Reading reading = new Reading(code, temperature, windSpeed, pressure, windDirection,  new Date());
     Station station = Station.findById(id);
     Logger.info("Add Readings");
     station.readings.add(reading);
@@ -33,4 +32,5 @@ public class StationsCtrl extends Controller {
     reading.delete();
     redirect("/stations/" + id);
   }
+
 }

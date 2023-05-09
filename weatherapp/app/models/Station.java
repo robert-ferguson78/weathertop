@@ -25,6 +25,10 @@ public class Station extends Model {
     this.longitude = longitude;
   }
 
+  public String getName() {
+    return name;
+  }
+
   //current weather reading methods
   public String currentWeatherCode() {
     //int number = readings.get(readings.size() - 1).getCode();

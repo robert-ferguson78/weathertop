@@ -3,8 +3,7 @@ package models;
 import play.db.jpa.Model;
 
 import javax.persistence.Entity;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Date;
 
 @Entity
 public class Reading extends Model
@@ -14,14 +13,16 @@ public class Reading extends Model
   public double windSpeed;
   public int pressure;
   public float windDirection;
+  public Date date;
 
-  public Reading(int code, double temperature, double windSpeed, int pressure, float windDirection)
+  public Reading(int code, double temperature, double windSpeed, int pressure, float windDirection, Date date)
   {
     this.code = code;
     this.temperature = temperature;
     this.windSpeed = windSpeed;
     this.pressure = pressure;
     this.windDirection = windDirection;
+    this.date = date;
   }
 
 
@@ -39,6 +40,7 @@ public class Reading extends Model
     return pressure;
   }
   public float getWindDirection() { return windDirection;}
+  public Date getDate() { return date;}
 
   //setters
   public void setCode(int code) {
@@ -55,5 +57,8 @@ public class Reading extends Model
   }
   public void setWindDirection(float windDirection) {
     this.windDirection = windDirection;
+  }
+  public void setDate(Date date) {
+    this.date = date;
   }
 }
