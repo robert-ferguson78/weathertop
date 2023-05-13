@@ -31,10 +31,16 @@
                 </div>
                 <div class="field">
                     <label class="label">Password</label>
-                    <input class="input" type="password" name="password" required>
+                    <input id="password" class="input" type="password" name="password" onkeyup='check();' required>
                 </div>
-                <button class="button is-link is-info">Submit</button>
+                <div class="field">
+                    <label class="label">Confirm Password</label>
+                    <input id="confrimpassword" class="input" type="password" name="confrimpassword" onkeyup='check();' required>
+                    <span id="warning"></span>
+                </div>
+                <button id="btSubmit" class="button is-link is-info">Submit</button>
             </form>
+            <script type="text/javascript" src="/public/javascripts/custom.js"></script>
         </div>
         #{animatedgraphic /}
     </div>

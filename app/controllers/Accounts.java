@@ -57,8 +57,8 @@ public class Accounts extends Controller
 
     Member member = Member.findByEmail(email);
     if ((member != null) && (member.checkPassword(password) == true)) {
-      Logger.info("Authentication successful");
-      session.put("logged_in_Memberid", member.id);
+      Logger.info("Authentication successful" + member.id);
+      session.put("logged_in_Memberid ", member.id);
       redirect ("/dashboard");
     } else {
       Logger.info("Authentication failed");
