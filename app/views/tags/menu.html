@@ -1,8 +1,13 @@
 <nav class="navbar">
   <div class="navbar-brand">
     <a id="start" class="navbar-item" href="/">WeatherTop</a>
+    <a role="button" class="navbar-burger is-large" id="burger">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
   </div>
-  <div class="navbar-menu">
+  <div id="nav-links" class="navbar-menu">
     <div class="navbar-end">
       <a id="dashboard" class="navbar-item" href="/dashboard">Dashboard</a>
       <a id="profile" class="navbar-item" href="/profile">Profile </a>
@@ -15,3 +20,4 @@
 <script>
   $("#${_id}").addClass("has-background-light-green has-text-black");
 </script>
+<script type="text/javascript" src="/public/javascripts/custom.js"></script>

@@ -20,10 +20,18 @@ public class Accounts extends Controller
 
   public static void register(String firstname, String lastname, String email, String password)
   {
-    Logger.info("Registering new user " + email);
-    Member member = new Member(firstname, lastname, email, password);
-    member.save();
-    redirect("/login");
+    Member checkEmail = Member.findByEmail(email);
+    if (checkEmail == null) {
+      Logger.info("Registering new user " + email);
+      Member member = new Member(firstname, lastname, email, password);
+      member.save();
+      redirect("/login");
+    } else {
+      Logger.info("Duplicate email address");
+      String duplicateEmail = "This email address has already been registered, please use a different email to register account";
+      render("/signup.html", duplicateEmail);
+    }
+
   }
 
   public static void profile() {
@@ -53,8 +61,9 @@ public class Accounts extends Controller
       session.put("logged_in_Memberid", member.id);
       redirect ("/dashboard");
     } else {
-      Logger.info("Authentication failed");
-      redirect("/login");
+      Logger.info("Login failed");
+      String loginFail = "Login Failed please check email and password";
+      render("/login.html", loginFail);
     }
   }
 
