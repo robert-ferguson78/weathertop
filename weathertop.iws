@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11c91595-143f-4bdf-9b25-ea6975cf8f87" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/StationsCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/StationsCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weathertop.iws" beforeDir="false" afterPath="$PROJECT_DIR$/weathertop.iws" afterDir="false" />
-    </list>
+    <list default="true" id="11c91595-143f-4bdf-9b25-ea6975cf8f87" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
