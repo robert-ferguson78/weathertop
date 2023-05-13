@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11c91595-143f-4bdf-9b25-ea6975cf8f87" name="Changes" comment="" />
+    <list default="true" id="11c91595-143f-4bdf-9b25-ea6975cf8f87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/dependencies.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dependencies.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weathertop.iws" beforeDir="false" afterPath="$PROJECT_DIR$/weathertop.iws" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +104,8 @@
       <workItem from="1683237450436" duration="711000" />
       <workItem from="1683630541869" duration="457000" />
       <workItem from="1683633316521" duration="213000" />
-      <workItem from="1683633822614" duration="3901000" />
+      <workItem from="1683633822614" duration="4934000" />
+      <workItem from="1683643620260" duration="718000" />
     </task>
     <servers />
   </component>
