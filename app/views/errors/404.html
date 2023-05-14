@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <title>Not found</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=${_response_encoding}"/>    
+        <meta http-equiv="Content-Type" content="text/html; charset=${_response_encoding}"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="/public/stylesheets/main.css">
     </head>
     <body>
-        #{if play.mode.name() == 'DEV'}
-            #{404 result /}
-        #{/if}
-        #{else}
-            <h1>Not found</h1>
-            <p>
-                ${result.message}
-            </p>
-        #{/else}
+<!--        #{if play.mode.name() == 'test'}-->
+<!--            #{404 result /}-->
+<!--        #{/if}-->
+<!--        #{else}-->
+<!--            <p>-->
+<!--                ${result.message}-->
+<!--            </p>-->
+<!--        #{/else}-->
+        <section class="page_404">
+            <div class="container has-text-centered">
+                <div class="columns is-mobile">
+                    <div class="column is-half is-offset-one-quarter">
+                            <div class="four_zero_four_bg">
+                                <h1 class="title is-1">404</h1>
+                            </div>
+                            <div class="contant_box_404">
+                                <h3 class="title is-3">
+                                    Look like you're lost
+                                </h3>
+                                <p>the page you are looking for not avaible!</p><br/>
+                                <a href="/" class="button is-primary">Go to Home</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
