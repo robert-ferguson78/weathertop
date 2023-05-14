@@ -4,14 +4,12 @@
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
                 ${_station.name}
             </div>
-            <div class="columns">
-                <div class="column reading is-full has-text-centered">
-                    Lat: ${_station.latitude}<br/>
-                    Long: ${_station.longitude}
+            <div class="columns is-mobile">
+                <div class="column reading has-text-centered is-half-mobile has-text-right">
+                    Latitude: ${_station.latitude}<br/>
+                    Longitude: ${_station.longitude}
                 </div>
-            </div>
-            <div class="columns is-flex is-justify-content-center">
-                <div class="column is-half">
+                <div class="column is-half-mobile">
                     <img src="/public/images/svg/compass.svg">
                 </div>
             </div>
@@ -23,11 +21,11 @@
                 Weather Code
             </div>
             #{if _station.readings.size() > 0}
-            <div class="columns">
-                <div class="column reading is-size-6-desktop">
+            <div class="columns is-mobile">
+                <div class="column reading is-size-6-desktop is-half-mobile">
                     ${_station.currentWeatherCode()}
                 </div>
-                <div class="column">
+                <div class="column is-half-mobile">
                     <img src="/public/images/svg/${_station.currentWeatherCodeIcon()}.svg">
                 </div>
             </div>
@@ -35,74 +33,81 @@
         </div>
     </div>
     <div class="column is-flex">
-        <div class="card dark-green pb-3">
+        <div class="card dark-green has-text-right pb-3">
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
                 Temperature
             </div>
             #{if _station.readings.size() > 0}
-            <div class="columns">
-                <div class="column reading is-size-6-desktop">
+            <div class="columns is-mobile">
+                <div class="column reading is-size-6-desktop is-half-mobile">
                     ${_station.readings.temperature.last()} C
                     <br/>
                     ${_station.celsiusToFahrenheit()} F
-                    <br/>
-                    Min: ${_station.getMinTemp()}
-                    <br/>
-                    Max: ${_station.getMaxTemp()}<br/>
-                    ${_station.tempTrendText()}
-                    <i class="fa-solid ${_station.tempTrend()}"></i>
                 </div>
-                <div class="column">
+                <div class="column is-half-mobile">
                     <img src="/public/images/svg/thermometer.svg">
                 </div>
             </div>
+            <div class="columns is-centered is-mobile">
+                <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour">
+                    Min: ${_station.getMinTemp()} <i class="fa-regular fa-temperature-arrow-down"></i><br/>
+                    Max: ${_station.getMaxTemp()} <i class="fa-regular fa-temperature-arrow-up"></i><br/>
+                    ${_station.tempTrendText()} <i class="fa-solid ${_station.tempTrend()}"></i>
+                </div>
+            </div>
             #{/if}
         </div>
     </div>
     <div class="column is-flex">
-        <div class="card dark-green has-text-centered pb-3">
-            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+        <div class="card dark-green has-text-right pb-3">
+            <div class="card-header-title is-size-5-desktop is-size-6-touch">
                 Windspeed
             </div>
             #{if _station.readings.size() > 0}
-            <div class="columns">
-                <div class="column reading is-size-6-desktop">
+            <div class="columns is-mobile">
+                <div class="column reading is-size-6-desktop is-half-mobile">
                     ${_station.kmHrToBeaufortScale()} bft <br/>
                     <span class="suppliment-text">(${_station.beaufortLabel()})</span>
                 </div>
-                <div class="column">
+                <div class="column is-half-mobile">
                     <img src="/public/images/svg/wind-beaufort-${_station.kmHrToBeaufortScale()}.svg">
                 </div>
             </div>
-            ${_station.windCompassDirection()} <br/>
-            Feels Like: ${_station.windChill()}
-            <br/>
-            Min: ${_station.getMinWind()}
-            <br/>
-            Max: ${_station.getMaxWind()}<br/>
-            ${_station.windTrendText()}
-            <i class="fa-solid ${_station.windTrend()}"></i>
+            <div class="columns is-centered is-mobile">
+                <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour">
+                    ${_station.windCompassDirection()} <i class="fa-regular fa-windsock"></i><br/>
+                    Feels Like: ${_station.windChill()} <i class="fa-sharp fa-regular fa-snow-blowing"></i><br/>
+                    Min: ${_station.getMinWind()} <i class="fa-solid fa-wind"></i><br/>
+                    Max: ${_station.getMaxWind()} <i class="fa-sharp fa-solid fa-tornado"></i><br/>
+                    #{if _station.readings.size() > 3}
+                    ${_station.windTrendText()} <i class="fa-solid ${_station.windTrend()}"></i>
+                    #{/if}
+                </div>
+            </div>
             #{/if}
         </div>
     </div>
     <div class="column is-flex">
-        <div class="card dark-green pb-3">
-            <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
+        <div class="card dark-green has-text-right pb-3">
+            <div class="card-header-title is-size-5-desktop is-size-6-touch">
                 Pressure
             </div>
             #{if _station.readings.size() > 0}
-            <div class="columns">
-                <div class="column reading is-size-6-desktop">
+            <div class="columns is-mobile">
+                <div class="column reading is-size-6-desktop is-half-mobile">
                     ${_station.currentPressure()} hpa
                 </div>
-                <div class="column">
+                <div class="column is-half-mobile">
                     <img src="/public/images/svg/barometer.svg">
                 </div>
             </div>
-            Min: ${_station.getMinPressure()} hpa<br/>
-            Max: ${_station.getMaxPressure()} hpa<br/>
-            ${_station.pressureTrendText()}
-            <i class="fa-solid ${_station.pressureTrend()}"></i>
+            <div class="columns is-centered is-mobile">
+                <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour">
+                    Min: ${_station.getMinPressure()} hpa <i class="fa-regular fa-gauge-simple-min"></i><br/>
+                    Max: ${_station.getMaxPressure()} hpa <i class="fa-regular fa-gauge-max"></i><br/>
+                    ${_station.pressureTrendText()} <i class="fa-solid ${_station.pressureTrend()}"></i>
+                </div>
+            </div>
             #{/if}
         </div>
     </div>
