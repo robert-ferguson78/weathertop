@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11c91595-143f-4bdf-9b25-ea6975cf8f87" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Template_1003$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1003$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template_1003.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template_1005$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1005$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template_1005.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1005.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/StationsCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/StationsCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Reading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/animatedgraphic.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/animatedgraphic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/mainpanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/mainpanel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_welcomemenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_welcomemenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Accounts" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Accounts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Start" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Start" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.StationsCtrl" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.StationsCtrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Member" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Member" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Reading" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Reading" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/controllers/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Dashboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weathertop.iws" beforeDir="false" afterPath="$PROJECT_DIR$/weathertop.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
