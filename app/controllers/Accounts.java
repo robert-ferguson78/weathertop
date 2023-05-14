@@ -4,25 +4,21 @@ import models.Member;
 import play.Logger;
 import play.mvc.Controller;
 
-public class Accounts extends Controller
-{
+public class Accounts extends Controller {
   //  render signup page
-  public static void signup()
-  {
+  public static void signup() {
     Logger.info("User Sign up page");
     render("signup.html");
   }
 
   //  render login page
-  public static void login()
-  {
+  public static void login() {
     Logger.info("Login page");
     render("login.html");
   }
 
   //  register user in system with check for unique email address
-  public static void register(String firstname, String lastname, String email, String password)
-  {
+  public static void register(String firstname, String lastname, String email, String password) {
     Member checkEmail = Member.findByEmail(email);
     if (checkEmail == null) {
       Logger.info("Registering new user " + email);
@@ -57,15 +53,14 @@ public class Accounts extends Controller
   }
 
   //  check users email and password for login and give error for incorrect login submission
-  public static void authenticate(String email, String password)
-  {
+  public static void authenticate(String email, String password) {
     Logger.info("Attempting to authenticate with " + email + ":" + password);
 
     Member member = Member.findByEmail(email);
     if ((member != null) && (member.checkPassword(password) == true)) {
       Logger.info("Authentication successful");
       session.put("logged_in_Memberid", member.id);
-      redirect ("/dashboard");
+      redirect("/dashboard");
     } else {
       Logger.info("Login failed");
       String loginFail = "Login Failed please check email and password";
@@ -74,14 +69,12 @@ public class Accounts extends Controller
   }
 
   //  log user out and send to root
-  public static void logout()
-  {
+  public static void logout() {
     session.clear();
-    redirect ("/");
+    redirect("/");
   }
 
-  public static Member getLoggedInMember()
-  {
+  public static Member getLoggedInMember() {
     Member member = null;
     if (session.contains("logged_in_Memberid")) {
       String memberId = session.get("logged_in_Memberid");

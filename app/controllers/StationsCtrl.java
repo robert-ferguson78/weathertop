@@ -12,7 +12,7 @@ import play.mvc.Controller;
 import static controllers.Accounts.login;
 
 public class StationsCtrl extends Controller {
-//  load list of stations
+  //  load list of stations
   public static void index(Long id) {
     if (session.contains("logged_in_Memberid")) {
       Station station = Station.findById(id);
@@ -25,7 +25,7 @@ public class StationsCtrl extends Controller {
 
   //  add reading to station
   public static void addReading(Long id, int code, double temperature, double windSpeed, int pressure, float windDirection) {
-    Reading reading = new Reading(code, temperature, windSpeed, pressure, windDirection,  new Date());
+    Reading reading = new Reading(code, temperature, windSpeed, pressure, windDirection, new Date());
     Station station = Station.findById(id);
     Logger.info("Add Readings");
     station.readings.add(reading);

@@ -4,38 +4,43 @@
 #{menu id:"profile"/}
 
 <section class="content box">
-  <div class="columns">
-    <div class="column is-half">
-      <form action="/update/${member.id}" method="POST">
-        <h3 class="subtitle">Profile</h3>
-        #{if message}
-        <div class="notification is-success">${message}</div>
-        #{/if}
-        <div class="field">
-          <label class="label">Email (Can not be updated)</label>
-          <input class="input" placeholder="${member.email}" name="email" value="${member.getEmail()}" disabled>
+    <div class="columns">
+        <div class="column is-half">
+            <form action="/update/${member.id}" method="POST">
+                <h3 class="subtitle">Profile</h3>
+                #{if message}
+                <div class="notification is-success">${message}</div>
+                #{/if}
+                <div class="field">
+                    <label class="label">Email (Can not be updated)</label>
+                    <input class="input" placeholder="${member.email}" name="email" value="${member.getEmail()}"
+                           disabled>
+                </div>
+                <div class="field">
+                    <label class="label">First Name</label>
+                    <input class="input" placeholder="${member.firstName}" name="firstname" value="${member.firstName}"
+                           required>
+                </div>
+                <div class="field">
+                    <label class="label">Last Name</label>
+                    <input class="input" placeholder="${member.lastName}" name="lastname"
+                           value="${member.getLastName()}" required>
+                </div>
+                <div class="field">
+                    <label class="label">Password</label>
+                    <input id="password" class="input" type="password" name="password" value="${member.getPassword()}"
+                           onkeyup='check();' required>
+                </div>
+                <div class="field">
+                    <label class="label">Confirm Password</label>
+                    <input id="confrimpassword" class="input" type="password" name="confrimpassword"
+                           value="${member.getPassword()}" onkeyup='check();' required>
+                    <span id="warning"></span>
+                </div>
+                <button id="btSubmit" class="button is-link is-info">Update Profile</button>
+            </form>
+            <script type="text/javascript" src="/public/javascripts/custom.js"></script>
         </div>
-        <div class="field">
-          <label class="label">First Name</label>
-          <input class="input" placeholder="${member.firstName}" name="firstname" value="${member.firstName}" required>
-        </div>
-        <div class="field">
-          <label class="label">Last Name</label>
-          <input class="input" placeholder="${member.lastName}" name="lastname" value="${member.getLastName()}" required>
-        </div>
-        <div class="field">
-          <label class="label">Password</label>
-          <input id="password" class="input" type="password" name="password" value="${member.getPassword()}" onkeyup='check();' required>
-        </div>
-        <div class="field">
-          <label class="label">Confirm Password</label>
-          <input id="confrimpassword" class="input" type="password" name="confrimpassword" value="${member.getPassword()}" onkeyup='check();' required>
-          <span id="warning"></span>
-        </div>
-        <button id="btSubmit" class="button is-link is-info">Update Profile</button>
-      </form>
-      <script type="text/javascript" src="/public/javascripts/custom.js"></script>
+        #{animatedgraphic /}
     </div>
-    #{animatedgraphic /}
-  </div>
 </section>
