@@ -4,6 +4,7 @@ CSS sections
 - Main content
 - Navigation
 - Colour
+- 404
  */
 
 /* Readings */
@@ -60,3 +61,20 @@ a.navbar-item:hover {
 .has-background-light {
     border:solid 1px rgba(0,0,0,.1);
 }
+/* 404 */
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+    background-image: url(/public/images/caveman.gif);
+    height: 400px;
+    background-position: center;
+}
+.link_404{
+    color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;}
