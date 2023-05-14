@@ -6,18 +6,21 @@ import play.mvc.Controller;
 
 public class Accounts extends Controller
 {
+  //  render signup page
   public static void signup()
   {
     Logger.info("User Sign up page");
     render("signup.html");
   }
 
+  //  render login page
   public static void login()
   {
     Logger.info("Login page");
     render("login.html");
   }
 
+  //  register user in system with check for unique email address
   public static void register(String firstname, String lastname, String email, String password)
   {
     Member checkEmail = Member.findByEmail(email);
@@ -34,12 +37,14 @@ public class Accounts extends Controller
 
   }
 
+  //  render profile page
   public static void profile() {
     Member member = Accounts.getLoggedInMember();
     Logger.info("Rendering profile");
     render("profile.html", member);
   }
 
+  //  update users profile information excluding email
   public static void profileUpdate(Long memberId, String firstname, String lastname, String password) {
     Member member = Member.findById(memberId);
     member.setFirstName(firstname);
@@ -51,6 +56,7 @@ public class Accounts extends Controller
     render("/profile.html", member, message);
   }
 
+  //  check users email and password for login and give error for incorrect login submission
   public static void authenticate(String email, String password)
   {
     Logger.info("Attempting to authenticate with " + email + ":" + password);
@@ -67,6 +73,7 @@ public class Accounts extends Controller
     }
   }
 
+  //  log user out and send to root
   public static void logout()
   {
     session.clear();

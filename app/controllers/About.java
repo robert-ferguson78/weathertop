@@ -7,6 +7,7 @@ import models.*;
 
 public class About extends Controller
 {
+  //  render about page
   public static void index() {
     Logger.info("Rendering about");
     render ("about.html");
