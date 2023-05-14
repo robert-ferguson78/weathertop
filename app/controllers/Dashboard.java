@@ -15,7 +15,7 @@ public class Dashboard extends Controller {
     Logger.info("Rendering Dashboard");
     Member member = Accounts.getLoggedInMember();
     List<Station> stations = Conversions.sortStations(member.stations);
-    render ("dashboard.html", stations);
+    render("dashboard.html", stations);
   }
 
   public static void addStation(String name, double latitude, double longitude) {
@@ -34,7 +34,7 @@ public class Dashboard extends Controller {
     member.stations.remove(station);
     member.save();
     station.delete();
-    redirect ("/dashboard");
+    redirect("/dashboard");
   }
 }
 
