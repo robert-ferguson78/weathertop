@@ -11,6 +11,9 @@
                 #{if duplicateEmail}
                 <div class="notification is-danger">${duplicateEmail}</div>
                 #{/if}
+                #{if deleteAccount}
+                <div class="notification is-success">${deleteAccount}</div>
+                #{/if}
                 <div class="field is-horizontal field-body">
                     <div class="field">
                         <label class="label">First Name</label>

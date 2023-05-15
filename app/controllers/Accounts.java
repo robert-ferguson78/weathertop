@@ -84,4 +84,13 @@ public class Accounts extends Controller {
     }
     return member;
   }
+
+  public static void deleteAccount(Long memberID) {
+    Member member = Accounts.getLoggedInMember();
+    Logger.info("deleting account " + member.id);
+    member.delete();
+    session.clear();
+    String deleteAccount = "Your account has been deleted";
+    render("/signup.html", deleteAccount);
+  }
 }

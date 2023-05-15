@@ -37,7 +37,14 @@
                            value="${member.getPassword()}" onkeyup='check();' required>
                     <span id="warning"></span>
                 </div>
-                <button id="btSubmit" class="button is-link is-info">Update Profile</button>
+                <div class="columns is-left is-mobile">
+                    <div class="column">
+                        <button id="btSubmit" class="button is-link is-info">Update Profile</button>
+                    </div>
+                    <div class="column has-text-right">
+                        <a href="/deleteaccount/${member.id}" class="button is-danger">Delete Profile & Account</a>
+                    </div>
+                </div>
             </form>
             <script type="text/javascript" src="/public/javascripts/custom.js"></script>
         </div>
