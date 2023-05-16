@@ -5,6 +5,7 @@ CSS sections
 - Navigation
 - Colour
 - 404
+- iframe map
  */
 
 /* Readings */
@@ -72,4 +73,9 @@ a.navbar-item:hover {
     background-image: url(/public/images/caveman.gif);
     height: 400px;
     background-position: center;
+}
+/* iframe map */
+iframe {
+    width: 100%;
+    min-height:50vh;
 }

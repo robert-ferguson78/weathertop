@@ -74,6 +74,7 @@ public class Accounts extends Controller {
     redirect("/");
   }
 
+  //  get logged in member or send to login page
   public static Member getLoggedInMember() {
     Member member = null;
     if (session.contains("logged_in_Memberid")) {
@@ -85,6 +86,7 @@ public class Accounts extends Controller {
     return member;
   }
 
+  // delete user-member from system
   public static void deleteAccount(Long memberID) {
     Member member = Accounts.getLoggedInMember();
     Logger.info("deleting account " + member.id);

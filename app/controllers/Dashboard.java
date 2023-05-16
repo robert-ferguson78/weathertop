@@ -1,16 +1,14 @@
 package controllers;
 
-import java.util.ArrayList;
 import java.util.List;
-
 import Utilities.Conversions;
 import models.Member;
 import models.Station;
-import models.Reading;
 import play.Logger;
 import play.mvc.Controller;
 
 public class Dashboard extends Controller {
+  // render dashboard
   public static void index() {
     Logger.info("Rendering Dashboard");
     Member member = Accounts.getLoggedInMember();
@@ -18,6 +16,7 @@ public class Dashboard extends Controller {
     render("dashboard.html", stations);
   }
 
+  // add station to member
   public static void addStation(String name, double latitude, double longitude) {
     Logger.info("Adding a New Station Called " + name);
     Member member = Accounts.getLoggedInMember();
@@ -27,6 +26,7 @@ public class Dashboard extends Controller {
     redirect ("/dashboard");
   }
 
+  // delete station attached to member
   public static void deleteStation(Long id) {
     Logger.info("Deleting a Station");
     Member member = Accounts.getLoggedInMember();
