@@ -6,6 +6,7 @@ import play.db.jpa.Model;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.HashMap;
 
 public class Conversions extends Model {
   public static String codeToText(int code) {
@@ -32,26 +33,17 @@ public class Conversions extends Model {
   }
 
   public static String codeToWeatherIcon(int code) {
-    switch (code) {
-      case 100:
-        return "clear-day";
-      case 200:
-        return "cloud-up";
-      case 300:
-        return "cloudy";
-      case 400:
-        return "drizzle";
-      case 500:
-        return "extreme-rain";
-      case 600:
-        return "rain";
-      case 700:
-        return "snow";
-      case 800:
-        return "thunderstorms";
-      default:
-        return "star";
-    }
+    HashMap<Integer, String> codeWeatherIcon = new HashMap<>();
+    codeWeatherIcon.put(100, "clear-day");
+    codeWeatherIcon.put(200, "cloud-up");
+    codeWeatherIcon.put(300, "cloudy");
+    codeWeatherIcon.put(400, "drizzle");
+    codeWeatherIcon.put(500, "extreme-rain");
+    codeWeatherIcon.put(600, "rain");
+    codeWeatherIcon.put(700, "snow");
+    codeWeatherIcon.put(800, "thunderstorms");
+    String codeToWeatherIconValue = codeWeatherIcon.getOrDefault(code, "star");
+    return codeToWeatherIconValue;
   }
 
   public static double celsiusToFahrenheit(double temperature) {
