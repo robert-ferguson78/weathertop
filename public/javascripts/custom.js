@@ -18,3 +18,22 @@ const navbarMenu = document.querySelector('#nav-links');
 burgerIcon.addEventListener('click', () => {
     navbarMenu.classList.toggle('is-active');
 });
+
+function confirmdelete() {
+    var x = document.getElementById("confirmDelete");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function cancel() {
+    var y = document.getElementById("confirmDelete");
+    if (y.style.display === "none") {
+        y.style.display = "block";
+    } else {
+        y.style.display = "none";
+    }
+}
+

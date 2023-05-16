@@ -41,12 +41,22 @@
                            value="${member.getPassword()}" onkeyup='check();' required>
                     <span id="warning"></span>
                 </div>
-                <div class="columns is-left is-mobile">
+                <div class="columns is-left is-deskop mt-2">
                     <div class="column">
-                        <button id="btSubmit" class="button is-link is-info">Update Profile</button>
+                        <button id="btSubmit" class="button is-link is-info is-fullwidth">Update Profile</button>
                     </div>
-                    <div class="column has-text-right">
-                        <a href="/deleteaccount/${member.id}" class="button is-danger">Delete Profile & Account</a>
+                    <div class="column">
+                        <span class="button is-danger is-fullwidth" onclick="confirmdelete()">Delete Profile & Account</span>
+                    </div>
+                </div>
+                <div id="confirmDelete" style="display: none;">
+                    <div class="columns is-mobile">
+                        <div class="column is-half">
+                            <span onclick="cancel()" class="button is-fullwidth">Cancel</span>
+                        </div>
+                        <div class="column is-half">
+                            <a href="/deleteaccount/${member.id}" class="button is-danger is-fullwidth">Confirm Delete</a>
+                        </div>
                     </div>
                 </div>
             </form>
