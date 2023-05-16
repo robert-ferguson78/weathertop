@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!--header start-->
 <head>
     <title>#{get 'title' /}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -7,7 +8,9 @@
     <link rel="stylesheet" href="/public/stylesheets/main.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
 </head>
+<!--header end-->
 <body class="container">
+<!--Banner start-->
 <section class="hero is-small dark-green">
     <div class="hero-body columns is-vcentered">
         <div class="column is-two-fifths">
@@ -36,9 +39,13 @@
         </div>
     </div>
 </section>
+<!--Banner end-->
+<!--Content start-->
 <main>
     #{doLayout /}
 </main>
+<!--Content end-->
+<!--Footer start-->
 <footer class="footer box">
     <div class="content has-text-centered">
         <p class="has-text-primary">
@@ -46,5 +53,6 @@
         </p>
     </div>
 </footer>
+<!--Footer end-->
 </body>
 </html>

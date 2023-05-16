@@ -1,4 +1,6 @@
+<!--Latest readings start-->
 <div class="columns reading">
+    <!--Station location details start-->
     <div class="column is-flex">
         <div class="card dark-green pb-3">
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
@@ -15,12 +17,15 @@
             </div>
         </div>
     </div>
+    <!--Station location details end-->
+    <!--Station Weather code start-->
     <div class="column is-flex">
         <div class="card dark-green pb-3">
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
                 Weather Code
             </div>
             #{if _station.readings.size() > 0}
+            <!--Readings Weather code start-->
             <div class="columns is-mobile">
                 <div class="column reading is-size-6-desktop is-half-mobile">
                     ${_station.currentWeatherCode()}
@@ -29,8 +34,10 @@
                     <img src="/public/images/svg/${_station.currentWeatherCodeIcon()}.svg">
                 </div>
             </div>
+            <!--Readings Weather code start-->
             #{/if}
             #{else}
+            <!--No readings start-->
             <div class="columns is-centered is-mobile mt-3">
                 <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour has-text-centered">
                     <span class="icon-text">
@@ -39,15 +46,19 @@
                      </span>
                 </div>
             </div>
+            <!--No readings end-->
             #{/else}
         </div>
     </div>
+    <!--Station Weather code end-->
+    <!--Station Temperature start-->
     <div class="column is-flex">
         <div class="card dark-green has-text-right pb-3">
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
                 Temperature
             </div>
             #{if _station.readings.size() > 0}
+            <!--Readings Temperature start-->
             <div class="columns is-mobile">
                 <div class="column reading is-size-6-desktop is-half-mobile">
                     ${_station.readings.temperature.last()} C
@@ -65,8 +76,10 @@
                     ${_station.tempTrendText()} <i class="fa-solid ${_station.tempTrend()}"></i>
                 </div>
             </div>
+            <!--Readings Temperature end-->
             #{/if}
             #{else}
+            <!--No readings start-->
             <div class="columns is-centered is-mobile mt-3">
                 <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour has-text-centered">
                     <span class="icon-text">
@@ -75,15 +88,19 @@
                      </span>
                 </div>
             </div>
+            <!--No readings end-->
             #{/else}
         </div>
     </div>
+    <!--Station Temperature end-->
+    <!--Station Windspeed start-->
     <div class="column is-flex">
         <div class="card dark-green has-text-right pb-3">
             <div class="card-header-title is-size-5-desktop is-size-6-touch">
                 Windspeed
             </div>
             #{if _station.readings.size() > 0}
+            <!--Readings Windspeed start-->
             <div class="columns is-mobile">
                 <div class="column reading is-size-6-desktop is-half-mobile">
                     ${_station.kmHrToBeaufortScale()} bft <br/>
@@ -104,8 +121,10 @@
                     #{/if}
                 </div>
             </div>
+            <!--Readings Windspeed end-->
             #{/if}
             #{else}
+            <!--No readings start-->
             <div class="columns is-centered is-mobile mt-3">
                 <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour has-text-centered">
                     <span class="icon-text">
@@ -114,15 +133,19 @@
                      </span>
                 </div>
             </div>
+            <!--No readings end-->
             #{/else}
         </div>
     </div>
+    <!--Station Windspeed end-->
+    <!--Station Pressure start-->
     <div class="column is-flex">
         <div class="card dark-green has-text-right pb-3">
             <div class="card-header-title is-size-5-desktop is-size-6-touch">
                 Pressure
             </div>
             #{if _station.readings.size() > 0}
+            <!--Readings Pressure start-->
             <div class="columns is-mobile">
                 <div class="column reading is-size-6-desktop is-half-mobile">
                     ${_station.currentPressure()} hpa
@@ -138,8 +161,10 @@
                     ${_station.pressureTrendText()} <i class="fa-solid ${_station.pressureTrend()}"></i>
                 </div>
             </div>
+            <!--Readings Pressure end-->
             #{/if}
             #{else}
+            <!--No readings start-->
             <div class="columns is-centered is-mobile mt-3">
                 <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour has-text-centered">
                     <span class="icon-text">
@@ -148,7 +173,10 @@
                      </span>
                 </div>
             </div>
+            <!--No readings end-->
             #{/else}
         </div>
     </div>
+    <!--Station Pressure end-->
 </div>
+<!--Latest readings end-->

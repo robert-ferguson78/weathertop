@@ -1,4 +1,6 @@
+<!--Readings table start-->
 <table class="table mt-6">
+    <!--Readings headings start-->
     <thead>
     <tr>
         <th>Date & Time</th>
@@ -10,6 +12,8 @@
         <th>Delete</th>
     </tr>
     </thead>
+    <!--Readings headings end-->
+    <!--Readings start-->
     <tbody>
     #{list items:_station.readings, as:'reading'}
     <tr>
@@ -37,4 +41,6 @@
     </tr>
     #{/list}
     </tbody>
+    <!--Readings end-->
 </table>
+<!--Readings table end-->

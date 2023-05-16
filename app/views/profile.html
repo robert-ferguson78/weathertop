@@ -3,14 +3,18 @@
 
 #{menu id:"profile"/}
 
+<!--Profile content start-->
 <section class="content box">
     <div class="columns">
+        <!--Profile form start-->
         <div class="column is-half">
             <form action="/update/${member.id}" method="POST">
                 <h3 class="subtitle">Profile</h3>
+                <!--User info messaging start-->
                 #{if message}
                 <div class="notification is-success">${message}</div>
                 #{/if}
+                <!--User info messaging end-->
                 <div class="field">
                     <label class="label">Email (Can not be updated)</label>
                     <input class="input" placeholder="${member.email}" name="email" value="${member.getEmail()}"
@@ -48,6 +52,10 @@
             </form>
             <script type="text/javascript" src="/public/javascripts/custom.js"></script>
         </div>
+        <!--Profile form end-->
+        <!--Animated Graphic start-->
         #{animatedgraphic /}
+        <!--Animated Graphic end-->
     </div>
 </section>
+<!--Profile content end-->

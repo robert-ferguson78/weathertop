@@ -3,13 +3,19 @@
 
 #{menu id:"stations"/}
 
+<!--Station list content start-->
 <div class="content box">
     <h1 class="title">
         ${station.name}
     </h1>
     #{if station.readings.size() > 0}
+    <!--Station latest readings start-->
     #{latestreadings station:station /}
+    <!--Station latest readings end-->
     #{/if}
+    <!--Station readings start-->
     #{listreadings station:station/}
+    <!--Station readings end-->
     #{addreading station:station /}
 </div>
+<!--Station list content end-->

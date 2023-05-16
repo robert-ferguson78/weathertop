@@ -5,16 +5,21 @@
 
 #{if stations.size() > 0}
 #{list items:stations, as:'station'}
+
+<!--Dashboard content start-->
 <div class="content box">
     <h1 class="title">
         ${station.name}
     </h1>
+    <!--Station latest readings start-->
     #{latestreadings station:station /}
+    <!--Station latest readings end-->
     <p>
         <a href="/stations/${station.id}" class="icon has-text-primary"><i class="fas fa-folder"></i></a>
         <a href="/dashboard/deletestation/${station.id}" class="icon has-text-danger"><i class="fas fa-trash"></i></a>
     </p>
 </div>
+<!--Dashboar content end-->
 #{/list}
 #{/if}
 
