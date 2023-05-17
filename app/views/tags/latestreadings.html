@@ -4,7 +4,7 @@
     <div class="column is-flex">
         <div class="card dark-green pb-3">
             <div class="card-header-title is-centered is-size-5-desktop is-size-6-touch">
-                ${_station.name}
+                Location
             </div>
             <div class="columns is-mobile">
                 <div class="column reading has-text-centered is-half-mobile has-text-right">
@@ -73,7 +73,9 @@
                 <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour">
                     Min: ${_station.getMinTemp()} <i class="fa-regular fa-temperature-arrow-down"></i><br/>
                     Max: ${_station.getMaxTemp()} <i class="fa-regular fa-temperature-arrow-up"></i><br/>
+                    #{if _station.readings.size() >= 3}
                     ${_station.tempTrendText()} <i class="fa-solid ${_station.tempTrend()}"></i>
+                    #{/if}
                 </div>
             </div>
             <!--Readings Temperature end-->
@@ -116,7 +118,7 @@
                     Feels Like: ${_station.windChill()} <i class="fa-sharp fa-regular fa-snow-blowing"></i><br/>
                     Min: ${_station.getMinWind()} <i class="fa-solid fa-wind"></i><br/>
                     Max: ${_station.getMaxWind()} <i class="fa-sharp fa-solid fa-tornado"></i><br/>
-                    #{if _station.readings.size() > 3}
+                    #{if _station.readings.size() >= 3}
                     ${_station.windTrendText()} <i class="fa-solid ${_station.windTrend()}"></i>
                     #{/if}
                 </div>
@@ -158,7 +160,9 @@
                 <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour">
                     Min: ${_station.getMinPressure()} hpa <i class="fa-regular fa-gauge-simple-min"></i><br/>
                     Max: ${_station.getMaxPressure()} hpa <i class="fa-regular fa-gauge-max"></i><br/>
+                    #{if _station.readings.size() >= 3}
                     ${_station.pressureTrendText()} <i class="fa-solid ${_station.pressureTrend()}"></i>
+                    #{/if}
                 </div>
             </div>
             <!--Readings Pressure end-->
