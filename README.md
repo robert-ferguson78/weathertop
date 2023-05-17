@@ -61,8 +61,11 @@ Features that have been implemented from the assignment brief
   * Pressure
 * Trends are displayed for Temperature, Wind, Pressure with icons and text for values Falling, Stable and Rising based
   on last 3 readings from user
-* Member/User profile page to display user details including Email, First Name, Last Name and Password "password is
-  hidden with ***"
+* Member/User profile page to display user details including 
+  * Email
+  * First Name
+  * Last Name
+  * Password "password is hidden with ***"
 * Ability to update users profile for
   * First Name
   * Last Name
