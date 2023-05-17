@@ -1,10 +1,10 @@
 # WeatherTop Assignment
 
-Student Name : Robert Ferguson
-Student Number : 20104121
-GitHub URL: https://github.com/robert-ferguson78/weathertop
-Deploy URL : https://app-76c5944d-5edf-4a8e-9d2c-b1587ad55e49.cleverapps.io/
-YouTube :
+* Student Name : Robert Ferguson 
+* Student Number : 20104121 
+* GitHub URL: https://github.com/robert-ferguson78/weathertop
+* Deploy URL : https://app-76c5944d-5edf-4a8e-9d2c-b1587ad55e49.cleverapps.io/
+* YouTube :
 
 This is WeatherTop Release 3 of the joint assignment of Web & Programming
 
