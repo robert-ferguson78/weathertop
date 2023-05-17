@@ -8,7 +8,7 @@
 
 This is WeatherTop Release 3 of the joint assignment of Web & Programming
 
-#### Features that have been implemented from the assignment brief
+# Features that have been implemented from the assignment brief
 * Initial values are read in from YAML file to save in Database
   * Station 
     * Name
@@ -72,7 +72,7 @@ This is WeatherTop Release 3 of the joint assignment of Web & Programming
   * But email is unique identifier for account and can not be changed "this is by design"
 * Ability to delete Member/User from application
 
-#### Additional Features that have been implemented
+# Additional Features that have been implemented
 * Custom 404 page
 * Required added to form fields to ensure values for Stations, Readings and Member/User profile data
 * Duplicate password fields to check for matching passwords "type in password twice to avoid typos" on both registration
@@ -88,7 +88,7 @@ This is WeatherTop Release 3 of the joint assignment of Web & Programming
 * Main menu is swapped for logged in menu on home page based on Session "logged_in_Memberid"
 * Animated icons for latest readings with wind icon animation speed + number based on Beaufort scale value
   
-#### Setup and Installation
+# Setup and Installation
 * Ensure that you have Play 1.6 and Java installed on your system. 
 * Clone this repository to your local machine. 
 * Navigate to the root directory of the project in your terminal. 
