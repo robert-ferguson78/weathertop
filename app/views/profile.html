@@ -46,10 +46,10 @@
                         <button id="btSubmit" class="button is-link is-info is-fullwidth">Update Profile</button>
                     </div>
                     <div class="column">
-                        <span class="button is-danger is-fullwidth" onclick="confirmdelete()">Delete Profile & Account</span>
+                        <span data-location="Profile" class="button is-danger is-fullwidth" onclick="confirmdelete(this)">Delete Profile & Account</span>
                     </div>
                 </div>
-                <div id="confirmDelete" style="display: none;">
+                <div id="confirmDeleteProfile" style="display: none;">
                     <div class="columns is-mobile">
                         <div class="column is-half">
                             <span onclick="cancel()" class="button is-fullwidth">Cancel</span>

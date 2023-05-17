@@ -36,11 +36,26 @@
             ${reading.getPressure()}
         </td>
         <td>
-            <a href="/stations/${_station.id}/deletereading/${reading.id}" class="button is-danger">Delete Reading</a>
+            <span data-location="${reading.id}" class="button is-danger" onclick="confirmdelete(this)">Delete Reading</span><br/>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="7" style="padding:0;margin:0;">
+        <div id="confirmDelete${reading.id}" style="display: none;">
+            <div class="columns is-desktop mt-3 mb-3">
+                <div class="column is-half">
+                    <span data-location="${reading.id}" onclick="confirmdelete(this)" class="button is-fullwidth">Cancel</span>
+                </div>
+                <div class="column is-half">
+                    <a href="/stations/${_station.id}/deletereading/${reading.id}" class="button is-danger is-fullwidth"">Confirm Delete</a>
+                </div>
+            </div>
+        </div>
         </td>
     </tr>
     #{/list}
     </tbody>
     <!--Readings end-->
 </table>
+<script type="text/javascript" src="/public/javascripts/custom.js"></script>
 <!--Readings table end-->

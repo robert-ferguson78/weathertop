@@ -19,21 +19,12 @@ burgerIcon.addEventListener('click', () => {
     navbarMenu.classList.toggle('is-active');
 });
 
-function confirmdelete() {
-    var x = document.getElementById("confirmDelete");
+function confirmdelete(element) {
+    var x = document.getElementById(`confirmDelete${element.dataset.location}`);
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
-    }
-}
-
-function cancel() {
-    var y = document.getElementById("confirmDelete");
-    if (y.style.display === "none") {
-        y.style.display = "block";
-    } else {
-        y.style.display = "none";
     }
 }
 
