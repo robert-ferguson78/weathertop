@@ -1,6 +1,7 @@
 package controllers;
 
 import java.util.List;
+
 import Utilities.Conversions;
 import models.Member;
 import models.Station;
@@ -23,7 +24,7 @@ public class Dashboard extends Controller {
     Station station = new Station(name, latitude, longitude, 0);
     member.stations.add(station);
     member.save();
-    redirect ("/dashboard");
+    redirect("/dashboard");
   }
 
   // delete station attached to member

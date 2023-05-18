@@ -16,15 +16,18 @@
     <!--Station latest readings end-->
     <p>
         <a href="/stations/${station.id}" class="icon has-text-primary"><i class="fas fa-folder"></i></a>
-        <span data-location="${station.id}" class="icon has-text-danger" onclick="confirmdelete(this)"><i class="fas fa-trash"></i></span>
+        <span data-location="${station.id}" class="icon has-text-danger" onclick="confirmdelete(this)"><i
+                class="fas fa-trash"></i></span>
     </p>
     <div id="confirmDelete${station.id}" style="display: none;">
         <div class="columns is-mobile">
             <div class="column is-half">
-                <span data-location="${station.id}" onclick="confirmdelete(this)" class="button is-fullwidth">Cancel</span>
+                <span data-location="${station.id}" onclick="confirmdelete(this)"
+                      class="button is-fullwidth">Cancel</span>
             </div>
             <div class="column is-half">
-                <a href="/dashboard/deletestation/${station.id}" class="button is-danger is-fullwidth">Confirm Delete</a>
+                <a href="/dashboard/deletestation/${station.id}" class="button is-danger is-fullwidth">Confirm
+                    Delete</a>
             </div>
         </div>
     </div>
