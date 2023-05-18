@@ -70,6 +70,7 @@
                 </div>
             </div>
             <div class="columns is-centered is-mobile">
+                #{if _station.readings.size() >= 2}
                 <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour">
                     Min: ${_station.getMinTemp()} <i class="fa-regular fa-temperature-arrow-down"></i><br/>
                     Max: ${_station.getMaxTemp()} <i class="fa-regular fa-temperature-arrow-up"></i><br/>
@@ -77,6 +78,7 @@
                     ${_station.tempTrendText()} <i class="fa-solid ${_station.tempTrend()}"></i>
                     #{/if}
                 </div>
+                #{/if}
             </div>
             <!--Readings Temperature end-->
             #{/if}
@@ -116,8 +118,10 @@
                 <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour">
                     ${_station.windCompassDirection()} <i class="fa-regular fa-windsock"></i><br/>
                     Feels Like: ${_station.windChill()} <i class="fa-sharp fa-regular fa-snow-blowing"></i><br/>
+                    #{if _station.readings.size() >= 2}
                     Min: ${_station.getMinWind()} <i class="fa-solid fa-wind"></i><br/>
                     Max: ${_station.getMaxWind()} <i class="fa-sharp fa-solid fa-tornado"></i><br/>
+                    #{/if}
                     #{if _station.readings.size() >= 3}
                     ${_station.windTrendText()} <i class="fa-solid ${_station.windTrend()}"></i>
                     #{/if}
@@ -157,6 +161,7 @@
                 </div>
             </div>
             <div class="columns is-centered is-mobile">
+                #{if _station.readings.size() >= 2}
                 <div class="column reading is-9-desktop is-9-mobile has-text-centered-mobile flip-colour">
                     Min: ${_station.getMinPressure()} hpa <i class="fa-regular fa-gauge-simple-min"></i><br/>
                     Max: ${_station.getMaxPressure()} hpa <i class="fa-regular fa-gauge-max"></i><br/>
@@ -164,6 +169,7 @@
                     ${_station.pressureTrendText()} <i class="fa-solid ${_station.pressureTrend()}"></i>
                     #{/if}
                 </div>
+                #{/if}
             </div>
             <!--Readings Pressure end-->
             #{/if}
