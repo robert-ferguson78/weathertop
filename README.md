@@ -6,7 +6,13 @@
 * Deploy URL : https://app-76c5944d-5edf-4a8e-9d2c-b1587ad55e49.cleverapps.io/
 * YouTube :
 
-This is WeatherTop Release 3 of the joint assignment of Web & Programming
+# Release Version
+This is WeatherTop Release 3 of the joint assignment of Web & Programming.
+
+# Brief Application Description
+This application allows users to register as a member and create unlimited stations with attached readings for each 
+station. Readings and stations are displayed to user in an attractive interface showing the member there historical 
+readings and Converted reading data with stats based on reading data.
 
 # Features that have been implemented from the assignment brief
 * Initial values are read in from YAML file to save in Database
