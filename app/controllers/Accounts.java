@@ -19,10 +19,10 @@ public class Accounts extends Controller {
 
   //  register user in system with check for unique email address
   public static void register(String firstname, String lastname, String email, String password) {
-    Member checkEmail = Member.findByEmail(email);
+    Member checkEmail = Member.findByEmail(email.toLowerCase());
     if (checkEmail == null) {
-      Logger.info("Registering new user " + email);
-      Member member = new Member(firstname, lastname, email, password);
+      Logger.info("Registering new user " + email.toLowerCase());
+      Member member = new Member(firstname, lastname, email.toLowerCase(), password);
       member.save();
       redirect("/login");
     } else {
@@ -54,9 +54,9 @@ public class Accounts extends Controller {
 
   //  check users email and password for login and give error for incorrect login submission
   public static void authenticate(String email, String password) {
-    Logger.info("Attempting to authenticate with " + email + ":" + password);
+    Logger.info("Attempting to authenticate with " + email.toLowerCase() + ":" + password);
 
-    Member member = Member.findByEmail(email);
+    Member member = Member.findByEmail(email.toLowerCase());
     if ((member != null) && (member.checkPassword(password) == true)) {
       Logger.info("Authentication successful");
       session.put("logged_in_Memberid", member.id);
