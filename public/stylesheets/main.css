@@ -6,6 +6,7 @@ CSS sections
 - Colour
 - 404
 - iframe map
+- footer
  */
 
 /* Readings */
@@ -93,4 +94,10 @@ a.navbar-item:hover {
 iframe {
     width: 100%;
     min-height: 50vh;
+}
+
+/* footer */
+.footer .dark-green.box {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
