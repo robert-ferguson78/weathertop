@@ -17,25 +17,25 @@
     <tbody>
     #{list items:_station.readings, as:'reading'}
     <tr>
-        <td>
+        <td label="Date & Time">
             ${reading.date}
         </td>
-        <td>
+        <td label="Code">
             ${reading.getCode()}
         </td>
-        <td>
+        <td label="Temperature">
             ${reading.getTemperature()}
         </td>
-        <td>
+        <td label="Wind Speed">
             ${reading.getWindSpeed()}
         </td>
-        <td>
+        <td label="Wind Direction">
             ${reading.getWindDirection()}
         </td>
-        <td>
+        <td label="Pressure">
             ${reading.getPressure()}
         </td>
-        <td>
+        <td label="Delete">
             <span data-location="${reading.id}" class="button is-danger"
                   onclick="confirmdelete(this)">Delete Reading</span><br/>
         </td>
