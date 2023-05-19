@@ -93,6 +93,7 @@ readings and Converted reading data with stats based on reading data.
 * Iframe video of weather forcast data on home page
 * Main menu is swapped for logged in menu on home page based on Session "logged_in_Memberid"
 * Animated icons for latest readings with wind icon animation speed + number based on Beaufort scale value
+* Members can not view other members stations when logged in
   
 # Setup and Installation
 * Ensure that you have Play 1.6 and Java installed on your system. 

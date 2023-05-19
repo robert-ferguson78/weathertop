@@ -15,9 +15,17 @@ public class StationsCtrl extends Controller {
   //  load list of stations
   public static void index(Long id) {
     if (session.contains("logged_in_Memberid")) {
-      Station station = Station.findById(id);
-      Logger.info("Station id = " + id);
-      render("stationslist.html", station);
+      Member member = Accounts.getLoggedInMember();
+      if (member != null) {
+        Station station = Station.findById(id);
+        boolean stationBelongToMember = member.stations.contains(station);
+        if (stationBelongToMember) {
+          render("stationslist.html", station);
+        } else {
+          flash("error", "You do not have permission to view this station");
+          redirect("/dashboard");
+        }
+      }
     } else {
       login();
     }

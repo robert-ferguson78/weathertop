@@ -3,6 +3,13 @@
 
 #{menu id:"dashboard"/}
 
+#{if flash.error}
+<!--Flash message start-->
+<div class="notification is-danger">
+    ${flash.error}
+</div>
+<!--Flash message end-->
+#{/if}
 #{if stations.size() > 0}
 #{list items:stations, as:'station'}
 
