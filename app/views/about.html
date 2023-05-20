@@ -1,7 +1,12 @@
 #{extends 'main.html' /}
 #{set title:'About' /}
 
+#{if session.get('logged_in_Memberid') == null}
+#{welcomemenu id:"about"/}
+#{/if}
+#{else}
 #{menu id:"about"/}
+#{/else}
 
 <!--About content start-->
 <div class="content box">
