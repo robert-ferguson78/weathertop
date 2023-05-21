@@ -26,11 +26,18 @@ main {
 }
 
 /* Navigation */
-.navbar {
+.hero main .navbar {
     margin-bottom: 30px;
 }
-.navbar-burger {
+
+.hero main .navbar-burger {
     color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .hero.is-fullheight .hero-body.block {
+        display: block;
+    }
 }
 
 /* Colour */
@@ -39,16 +46,16 @@ main {
     color: #fff;
 }
 
-.navbar {
+.hero main .navbar {
     background-color: #476C5E;
 }
 
-.navbar-item, .navbar-link {
+.hero main .navbar-item, .navbar-link {
     color: #ffffff;
 }
 
-.navbar-brand a.navbar-item:hover,
-a.navbar-item:hover {
+.hero main .navbar-brand a.navbar-item:hover,
+.hero main a.navbar-item:hover {
     background-color: #CEF09D;
     color: #0a0a0a;
 }
@@ -112,14 +119,20 @@ iframe {
     border-bottom-left-radius: 0;
 }
 
+.footer {
+    overflow: hidden;
+}
+
 /* table */
 /* reference to this table responsive code is here https://medium.com/allenhwkim/mobile-friendly-table-b0cb066dbc0e */
 @media screen and (max-width: 600px) {
     table thead {
         display: none;
-    }  table td {
-           display: flex;
-       }
+    }
+
+    table td {
+        display: flex;
+    }
 
     table td::before {
         content: attr(label);

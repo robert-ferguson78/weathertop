@@ -41,7 +41,7 @@ public class StationsCtrl extends Controller {
     redirect("/stations/" + id);
   }
 
-  //  delete reading attached tp station
+  //  delete reading attached to station
   public static void deleteReading(Long id, Long readingid) {
     Station station = Station.findById(id);
     Reading reading = Reading.findById(readingid);
