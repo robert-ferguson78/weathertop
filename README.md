@@ -1,47 +1,50 @@
 # WeatherTop Assignment
 
-* Student Name : Robert Ferguson 
-* Student Number : 20104121 
+* Student Name : Robert Ferguson
+* Student Number : 20104121
 * GitHub URL: https://github.com/robert-ferguson78/weathertop
 * Deploy URL : https://app-76c5944d-5edf-4a8e-9d2c-b1587ad55e49.cleverapps.io/
-* YouTube :
+* YouTube : https://www.youtube.com/watch?v=RGLprywJ6r0
 
 # Release Version
+
 This is WeatherTop Release 3 of the joint assignment of Web & Programming.
 
 # Brief Application Description
-This application allows users to register as a member and create unlimited stations with attached readings for each 
-station. Readings and stations are displayed to user in an attractive interface showing the member there historical 
+
+This application allows users to register as a member and create unlimited stations with attached readings for each
+station. Readings and stations are displayed to user in an attractive interface showing the member there historical
 readings and Converted reading data with stats based on reading data.
 
 # Features that have been implemented from the assignment brief
+
 * Initial values are read in from YAML file to save in Database
-  * Station 
-    * Name
-    * Latitude
-    * Longitude
-    * attached readings
-  * Station Readings
-    * Date
-    * Code
+    * Station
+        * Name
+        * Latitude
+        * Longitude
+        * attached readings
+    * Station Readings
+        * Date
+        * Code
+        * Temperature
+        * WindSpeed
+        * WindDirection
+        * Pressure
+    * Member/User
+        * Email
+        * First Name
+        * Last Name
+        * Password
+        * Stations
+* User visits site and has option to login or Signup/Register
+* Users Readings are displayed which contain
+    * Date of reading created
+    * Weather Code
     * Temperature
     * WindSpeed
     * WindDirection
     * Pressure
-  * Member/User
-    * Email
-    * First Name
-    * Last Name
-    * Password
-    * Stations
-* User visits site and has option to login or Signup/Register
-* Users Readings are displayed which contain 
-  * Date of reading created
-  * Weather Code
-  * Temperature
-  * WindSpeed
-  * WindDirection
-  * Pressure
 * Temperature is converted and displayed in both C & F
 * WindSpeed is converted in Beaufort scale to user, and also accompanied by text description of Beaufort number
 * WindDirection is converted from 0-360 value range to compass direction eg:"North East"
@@ -55,30 +58,31 @@ readings and Converted reading data with stats based on reading data.
 * Stations listed in alphabetical order in Station list view
 * Seperated Station and Reading views
 * Latest readings has Weather icons assigned
-  * Location
-  * Weather Code
-  * Temperature
-  * Wind
-  * Pressure
+    * Location
+    * Weather Code
+    * Temperature
+    * Wind
+    * Pressure
 * Min and Max values are displayed for
-  * Temperature
-  * Wind
-  * Pressure
+    * Temperature
+    * Wind
+    * Pressure
 * Trends are displayed for Temperature, Wind, Pressure with icons and text for values Falling, Stable and Rising based
   on last 3 readings from user
-* Member/User profile page to display user details including 
-  * Email
-  * First Name
-  * Last Name
-  * Password "password is hidden with ***"
+* Member/User profile page to display user details including
+    * Email
+    * First Name
+    * Last Name
+    * Password "password is hidden with ***"
 * Ability to update users profile for
-  * First Name
-  * Last Name
-  * Password
-  * But email is unique identifier for account and can not be changed "this is by design"
+    * First Name
+    * Last Name
+    * Password
+    * But email is unique identifier for account and can not be changed "this is by design"
 * Ability to delete Member/User from application
 
 # Additional Features that have been implemented
+
 * Custom 404 page
 * Required added to form fields to ensure values for Stations, Readings and Member/User profile data
 * Duplicate password fields to check for matching passwords "type in password twice to avoid typos" on both registration
@@ -94,11 +98,12 @@ readings and Converted reading data with stats based on reading data.
 * Main menu is swapped for logged in menu on home page based on Session "logged_in_Memberid"
 * Animated icons for latest readings with wind icon animation speed + number based on Beaufort scale value
 * Members can not view other members stations when logged in
-  
+
 # Setup and Installation
-* Ensure that you have Play 1.6 and Java installed on your system. 
-* Clone this repository to your local machine. 
-* Navigate to the root directory of the project in your terminal. 
-* Run play dependencies to download any dependencies. 
-* Run play run to start the application. 
+
+* Ensure that you have Play 1.6 and Java installed on your system.
+* Clone this repository to your local machine.
+* Navigate to the root directory of the project in your terminal.
+* Run play dependencies to download any dependencies.
+* Run play run to start the application.
 * Access the application on your browser at http://localhost:9000.

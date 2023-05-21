@@ -3,28 +3,28 @@
 # ~~~~
 
 # Home page
-GET         /                                                         Start.index
-GET         /signup                                                   Accounts.signup
-GET         /login                                                    Accounts.login
-POST        /register                                                 Accounts.register
-GET         /profile                                                  Accounts.profile
-POST        /update/{memberId}                                        Accounts.profileUpdate
-POST        /authenticate                                             Accounts.authenticate
-GET         /logout                                                   Accounts.logout
-GET         /deleteaccount/{id}                                       Accounts.deleteAccount
-GET         /dashboard                                                Dashboard.index
-GET         /about                                                    About.index
-GET         /stations/{id}                                            StationsCtrl.index
-POST        /stations/{id}/addreading                                 StationsCtrl.addReading
-POST        /dashboard/addstation                                     Dashboard.addStation
-GET         /dashboard/deletestation/{id}                             Dashboard.deleteStation
-GET         /stations/{id}/deletereading/{readingid}                  StationsCtrl.deleteReading
+GET         /                                                                  Start.index
+GET         /signup                                                            Accounts.signup
+GET         /login                                                             Accounts.login
+POST        /register                                                          Accounts.register
+GET         /profile                                                           Accounts.profile
+POST        /update/{memberId}                                                 Accounts.profileUpdate
+POST        /authenticate                                                      Accounts.authenticate
+GET         /logout                                                            Accounts.logout
+GET         /deleteaccount/{id}                                                Accounts.deleteAccount
+GET         /dashboard                                                         Dashboard.index
+GET         /about                                                             About.index
+GET         /stations/{id}                                                     StationsCtrl.index
+POST        /stations/{id}/addreading                                          StationsCtrl.addReading
+POST        /dashboard/addstation                                              Dashboard.addStation
+GET         /dashboard/deletestation/{id}                                      Dashboard.deleteStation
+GET         /stations/{id}/deletereading/{readingid}                           StationsCtrl.deleteReading
 
 # Ignore favicon requests
-GET         /favicon.ico                                   404
+GET         /favicon.ico                                                      404
 
 # Map static resources from the /app/public folder to the /public path
-GET         /public/                                       staticDir:public
+GET         /public/                                                           staticDir:public
 
 # Catch all
-*           /{controller}/{action}                                    {controller}.{action}
+*           /{controller}/{action}                                             {controller}.{action}
